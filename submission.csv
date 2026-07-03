@@ -1,0 +1,412 @@
+﻿id,answer
+testa_0001,B. Dầu Giây Long Thành
+testa_0002,"B. Sai
+
+Theo video, không có thông tin về hướng đi của ô tô. Vì vậy, không thể xác định được ô tô sẽ đi hướng nào."
+testa_0003,B. Không
+testa_0004,"A. Có
+
+The image shows a view from a moving vehicle, and the lights on the road are visible. The lights are on, indicating that the vehicle is in motion. The answer is A. There are lights on the road."
+testa_0005,B. Xe máy
+testa_0006,"A. Có
+
+The video shows a traffic light with a red signal, indicating that the vehicles are stopped at the intersection. The driver is waiting for the traffic light to change to green before continuing their journey. The presence of the red light is a common safety measure to prevent accidents and ensure the smooth flow of traffic."
+testa_0007,"A. Biển báo cấm, biển hiệu lệnh, biển báo trên đường cao tốc"
+testa_0008,D. Tất cả đáp án trên
+testa_0009,"B. Đi thẳng, rẽ phải"
+testa_0010,B. Không
+testa_0011,B. Rẽ trái
+testa_0012,A. Đi thẳng
+testa_0013,"B. Đi thẳng, rẽ trái, rẽ phải, quay đầu"
+testa_0014,B. Đúng
+testa_0015,"A. Biển cảnh báo nguy hiểm, biển báo cấm, biển bảo phụ"
+testa_0016,A. Có
+testa_0017,B. Báo hết hạn chế tốc độ tối đ
+testa_0018,A. Đúng
+testa_0019,C. Cảnh báo đoạn đường thường có trẻ em đi ngang qua
+testa_0020,C. Cảnh báo đoạn đường thường có kiểm tra tốc độ và thường có trẻ em đi ngang qua trong 200 mét phía trước
+testa_0021,A. Biển báo cấm
+testa_0022,B. Ô tô và xe máy
+testa_0023,B. Sai
+testa_0024,B. Biển báo đã ra khỏi thành phố.
+testa_0025,A. Phải
+testa_0026,B. Sai.
+testa_0027,A. 1
+testa_0028,"C. Báo hiệu giao nhau với đường không ưu tiên liên tiếp, nơi giao nhau có tín hiệu đèn"
+testa_0029,"C. Biển báo chỉ dẫn nơi người đi bộ sang ngang, thông báo cho người tham gia giao thông biết vị trí dành cho người đi bộ băng qua đường an toàn. Người lái xe phải giảm tốc độ, quan sát và ưu tiên nhường đường cho người đi bộ."
+testa_0030,"A. Đi thẳng, và rẽ trái."
+testa_0031,B. Sai
+testa_0032,"A. Bắt buộc các loại xe có hình trên biển phải đi vào các làn đường đã được chỉ dẫn, đồng thời cấm ô tô đi vào làn của mô tô, xe đạp và ngược lại."
+testa_0033,D. Xe ô tô
+testa_0034,B. Sai
+testa_0035,"A. Hạn chế trọng lượng trên trục xe, Cấm đi ngược chiều"
+testa_0036,C. Cả 2 tuyến đường
+testa_0037,A. Phải
+testa_0038,"B. Chỗ ngoặc nguy hiểm vòng bên trái, bến xe buýt"
+testa_0039,B. Chỗ ngoặc nguy hiểm vòng bên phải
+testa_0040,C. Đường giao nhau
+testa_0041,A. Có
+testa_0042,A. Phải
+testa_0043,A. Biển báo giao nhau với đường không ưu tiên
+testa_0044,C. 3
+testa_0045,A. Có
+testa_0046,C. 3
+testa_0047,A. Có
+testa_0048,C. Vạch dừng xe
+testa_0049,C. Giao nhau với đường không ưu tiên
+testa_0050,A. Có
+testa_0051,B. Sai
+testa_0052,B. 2
+testa_0053,"B. Biển báo giao nhau với đường không ưu tiên, biển cấm dừng và đỗ"
+testa_0054,B. Không phải
+testa_0055,D. Tất cả đều đúng
+testa_0056,B. Giao nhau với đường sắt có rào chắn
+testa_0057,B. 50 km/h
+testa_0058,B. Sai
+testa_0059,D. Đường giao nhau
+testa_0060,D. Đường giao nhau
+testa_0061,A. Đúng
+testa_0062,B. Sai
+testa_0063,B. 3
+testa_0064,B. Sai
+testa_0065,"C. Trẻ em, Biển báo phụ 200m, cấm đi ngược chiều"
+testa_0066,D. 80km/h
+testa_0067,A. Tốc độ tối đa cho phép là 60 km/h
+testa_0068,B. Không
+testa_0069,B. Không
+testa_0070,"D. Người đi bộ cắt ngang, Biển báo phụ 200m"
+testa_0071,B. Sai
+testa_0072,"C. Chỉ dẫn vị trí điện thoại khẩn cấp để liên hệ cứu hộ, cứu nạn khi có sự cố"
+testa_0073,C.100 km/h
+testa_0074,B. Sai
+testa_0075,A. Đi chậm
+testa_0076,A. Phải
+testa_0077,B. Hải Phòng
+testa_0078,A. Có
+testa_0079,B. Không
+testa_0080,C. Cả A và B đều đúng
+testa_0081,A. Có
+testa_0082,C. Cấm dừng và đỗ xe
+testa_0083,"A. Biển cấm đi ngược chiều, biển hiệu lệnh hướng phải đi vòng sang phải"
+testa_0084,"A. Xe tải, xe sơ-mi rơ-moó"
+testa_0085,B. Không
+testa_0086,D. Biển cảnh báo nguy hiểm và biển phụ
+testa_0087,A. Tốc độ tối đa cho phép
+testa_0088,A. Có
+testa_0089,B. Không
+testa_0090,B. Đường hẹp cả 2 bên
+testa_0091,C. 80 km/h
+testa_0092,A. Có
+testa_0093,"D. Cấm xe máy và xe lam, cấm dừng và đỗ xe"
+testa_0094,B. Không Phải
+testa_0095,C. Biển hiệu lệnh
+testa_0096,A. Đi thẳng
+testa_0097,A. Có
+testa_0098,A. Mọi loại phương tiện
+testa_0099,C. 3
+testa_0100,A. Phải
+testa_0101,B. Sai
+testa_0102,D. 80 km/h
+testa_0103,D. Không cấm loại phương tiện nào
+testa_0104,A. Phải
+testa_0105,A. Biển báo giới hạn chiều cao 4.75 m
+testa_0106,A. Có
+testa_0107,A. 3
+testa_0108,B. Sai
+testa_0109,D. Tất cả đều đúng
+testa_0110,B. Sai
+testa_0111,D. 80 km/h
+testa_0112,B. Không phải
+testa_0113,A. Biển báo giới hạn chiều cao 3.2 m
+testa_0114,C. Cấm đi ngược chiều
+testa_0115,B. Sai
+testa_0116,A. Có
+testa_0117,C. Cấm đi ngược chiều
+testa_0118,B. Sai
+testa_0119,A. Cấm đi ngược chiều
+testa_0120,B. Sai
+testa_0121,A. Có
+testa_0122,B. Cấm đỗ xe
+testa_0123,B. Sai
+testa_0124,B. 2
+testa_0125,B. Biển báo chỉ dẫn đường vào đường hầm
+testa_0126,B. Sai
+testa_0127,D. Cấm đỗ xe
+testa_0128,B. Sai
+testa_0129,A. Có
+testa_0130,A. Tối đa 50 km/h
+testa_0131,A. Giảm tốc độ dưới 50 km/h và xi nhan sang phải.
+testa_0132,D. Đi nhanh và di chuyển thẳng
+testa_0133,A. Có
+testa_0134,"D. Quan sát kỹ, tiếp tục di chuyển đợi tới khu vực khác cho phép."
+testa_0135,B. Không
+testa_0136,B. Không
+testa_0137,D. Không được phép chạy với tốc độ tối đa trên 50 km/h
+testa_0138,"B. Biển chỉ dẫn, biển hiệu lệnh, biển cấm"
+testa_0139,A. Có
+testa_0140,"B. Cầu Him Lam , Quận 1 & Quận 4"
+testa_0141,A. Đi thẳng
+testa_0142,A. Đúng
+testa_0143,B. Không được phép vì biển phụ chỉ dẫn cấm đỗ xe cả đoạn đường 150m phía sau.
+testa_0144,"C. Biển cấm, biển phụ, biển cảnh báo, biển hiệu lệnh"
+testa_0145,B. Không
+testa_0146,B. Vạch đứt nét màu trắng.
+testa_0147,A. Được phép vượt lên nếu đảm bảo an toàn và đủ không gian để chuyển sang làn bên trái.
+testa_0148,"D. Vi phạm nhẹ vì chỉ là ""dừng xe"" và chưa phải ""đỗ xe""."
+testa_0149,B. Không được phép
+testa_0150,A. Không được phép vì đây là biển cấm dừng và cấm đỗ xe.
+testa_0151,B. Cấm rẽ trái
+testa_0152,B. Không
+testa_0153,"A. Biển cấm, biển cảnh báo"
+testa_0154,B. Cấm đỗ xe
+testa_0155,B. Không
+testa_0156,A. Có
+testa_0157,A. Có
+testa_0158,B. Vạch đứt nét màu trắng.
+testa_0159,A. Đúng
+testa_0160,C. Cấm rẽ phải đối với xe máy và xe đạp
+testa_0161,"C. Cấm rẽ phải với xe buýt, xe tải và xe máy"
+testa_0162,B. Không
+testa_0163,B. Không
+testa_0164,B. Cấm đi nhanh hơn tốc độ cho phép
+testa_0165,B. Biển cấm đỗ và biển cấm xe buýt và xe tải
+testa_0166,B. Cấm các xe có chiều rộng lớn hơn 2.5 mét đi qua
+testa_0167,B. Không
+testa_0168,A. Biển cảnh báo chiều cao tĩnh không thực tế là 2.5 mét và biển cảnh báo nhiều chỗ ngoặt nguy hiểm liên tiếp
+testa_0169,A. Cảnh báo chiều cao tĩnh không thực tế là 2.5 mét
+testa_0170,A. Sai
+testa_0171,D. Mọi loại phương tiện
+testa_0172,B. Có
+testa_0173,A. Cấm đỗ xe
+testa_0174,B. Sai
+testa_0175,"A. Biển cấm đỗ xe, biển cấm xe trọng tải trên 2.5 tấn theo khung giờ"
+testa_0176,D. Cấm dừng và đỗ
+testa_0177,B. Không
+testa_0178,A. Cảnh báo sắp đến đoạn đường một chiều
+testa_0179,A. Không được phép vì làn bên trái là làn đường ngược chiều.
+testa_0180,B. Sai
+testa_0181,"C. Biển cấm, biển cảnh báo, biển hiệu lệnh, biển phụ"
+testa_0182,A. Có
+testa_0183,B. Không
+testa_0184,B. Áp dụng chung cho tất cả các loại phương tiện.
+testa_0185,"C. Giảm tốc độ, giữ khoảng cách và sẵn sàng nhường khi cần thiết để an toàn."
+testa_0186,B. Rẽ trái
+testa_0187,A. Đúng
+testa_0188,B. Không
+testa_0189,"B. Cấm xe tải trên 2,5 tấn, trọng lượng tối đa 13 tấn, chiều cao tối thiểu 3,5 mét"
+testa_0190,"A. Hợp lệ, miễn là vượt nhanh và an toàn."
+testa_0191,C. Chuẩn bị nhập làn hoặc giảm tốc độ khi hết vạch mũi tên.
+testa_0192,B. Giảm tốc độ và duy trì khoảng cách bên an toàn khi đi quanh nhóm xe hai bánh.
+testa_0193,B. Không
+testa_0194,B. Không
+testa_0195,B. Chuyển sang làn bên phải khi điều kiện cho phép và an toàn.
+testa_0196,"A. Biển cấm dừng và đỗ, Biển cấm rẽ phải, Biển cấm quay đầu, Biển hiệu lệnh hướng đi thẳng phải theo"
+testa_0197,B. Sai
+testa_0198,A. Được phép chuyển sang làn đường bên phải để tiếp tục di chuyển.
+testa_0199,B. Không
+testa_0200,C. Từ nơi có biển báo đến 30 mét nữa là đường có gờ giảm tốc và người đi bộ cắt ngang.
+testa_0201,"C. Biển cảnh báo, biển phụ, biển chỉ dẫn"
+testa_0202,B. Không
+testa_0203,"D. Quan sát gương chiếu hậu, kiểm tra điểm mù và bật tín hiệu báo hướng."
+testa_0204,A. Nhường đường cho người đi bộ đang hoặc sắp sang đường.
+testa_0205,A. Không
+testa_0206,"A. 6:00 - 9:00, 19:00 - 21:00"
+testa_0207,B. Không
+testa_0208,"B. 9:00 - 16:00, 19:00 - 23:00"
+testa_0209,"C. Biển báo cấm, biển hiệu lệnh, biển cảnh báo nguy hiểm, biển báo phụ"
+testa_0210,B. Sai
+testa_0211,A. Biển báo phụ
+testa_0212,"A. 1:00 - 6:00, 23:00 - 1:00"
+testa_0213,B. Không
+testa_0214,B. 100m
+testa_0215,D. Cảnh báo đường có gồ giảm tố
+testa_0216,C. Biển cấm quay xe cho phương tiện ô tô
+testa_0217,A. Có
+testa_0218,"B. 9:00 - 16:00, 19:00 - 23:00"
+testa_0219,B. Có
+testa_0220,"B. Xe đạp, xe ba bánh"
+testa_0221,B. 100m
+testa_0222,"C. Cảnh báo thường có người đi qua đường, và khu vực đường có gồ giảm tốc trong 40m tiếp theo"
+testa_0223,B. Không
+testa_0224,B. Biển cấm quay xe cho phương tiện ô tô
+testa_0225,C. Cảnh báo đường có gồ giảm tốc
+testa_0226,B. Không
+testa_0227,D. Biển cấm đỗ xe
+testa_0228,B. Biển cấm quay xe cho phương tiện ô tô
+testa_0229,A. Có
+testa_0230,"B. 9:00 - 16:00, 19:00 - 23:00"
+testa_0231,A. Đúng
+testa_0232,D. Biển cảnh báo chỗ ngoặt nguy hiểm
+testa_0233,B. Sai
+testa_0234,B. Biển cấm quay xe cho phương tiện ô tô
+testa_0235,C. Biển hiệu lệnh
+testa_0236,"A. 6:00 - 9:00, 19:00 - 21:00"
+testa_0237,"B. 9:00 - 16:00, 19:00 - 23:00"
+testa_0238,B. Sai
+testa_0239,"C. Biển cấm ô tô quay đầu, biển cấm ô tô rẽ trái"
+testa_0240,A. Biển cấm rẽ trái
+testa_0241,B. Không
+testa_0242,A. Từ 7h đến 10h và từ 17h đến 20h
+testa_0243,"A. Biển cấm xe 3 bánh và xe thô sơ, biển cấm xe container, biển cấm dừng đỗ xe, biển cấm đỗ , biển chỉ dẫn đi bên phải, biển cấm đi ngược chiều"
+testa_0244,A. Đúng
+testa_0245,A. Có
+testa_0246,C. 2.7m
+testa_0247,"A. Biển cấm dừng đỗ, biển cấm đi ngược chiều, biển cấm xe tải, biển giới hạn tốc độ"
+testa_0248,"A. Biển cảnh báo giới hạn chiều cao, biển cảnh báo bước ngoặt nguy hiểm"
+testa_0249,B. 2.2 mét
+testa_0250,B. Không
+testa_0251,B. Không
+testa_0252,B. Cảnh báo có người đi bộ cắt ngang
+testa_0253,A. Biển cấm rẽ trái và biển chỉ dẫn đi bên phải
+testa_0254,B. Sai
+testa_0255,B. Cấm quay đầu xe
+testa_0256,A. Từ 6 giờ đến 12 giờ và từ 14 giờ đến 20 giờ
+testa_0257,B. Sai
+testa_0258,"B. Biển cấm đi ngược chiều, biển cấm đỗ xe và cấm dừng đỗ, biển chỉ dẫn đi bên phải"
+testa_0259,C. 3
+testa_0260,B. Sai
+testa_0261,B. 1
+testa_0262,D. 5:00-13:00 và 16:00-22:00
+testa_0263,B. Sai
+testa_0264,A. Hướng đi thẳng phải theo
+testa_0265,D. Mọi loại phương tiện
+testa_0266,B. Sai
+testa_0267,A. Biển báo cấm
+testa_0268,A. Có
+testa_0269,B. Sai
+testa_0270,"B. 2,2m"
+testa_0271,"B. Cấm đi ngược chiều, cấm dừng đỗ xe, cấm xe ba bánh và xe thô sơ ba bánh"
+testa_0272,B. 2
+testa_0273,B. Không
+testa_0274,C. Quy định vị trí dừng xe của các phương tiện giao thông công cộng
+testa_0275,B. Không
+testa_0276,B. 2
+testa_0277,C. Cấm đỗ xe
+testa_0278,B. Không
+testa_0279,"A. Biển cấm đỗ xe, biển cấm rẽ trái, biển cấm quay đầu"
+testa_0280,A. Biển cấm đỗ xe
+testa_0281,B. Sai
+testa_0282,B. 3.1 m
+testa_0283,"C. Biển cấm đỗ xe, biển cấm đi ngược chiều, biển hiệu lệnh đi thẳng, biển báo giảm tố"
+testa_0284,A. Đúng
+testa_0285,A. Đúng
+testa_0286,"A. Biển cấm đi ngược chiều, biển cấm người đi bộ, biển giới hạn chiều cao"
+testa_0287,A. 2.7 m
+testa_0288,A. Biển cấm rẽ trái và biển cảnh báo đi chậm
+testa_0289,B. Cảnh báo đi chậm
+testa_0290,B. Không
+testa_0291,A. Chỗ ngoặt nguy hiểm vòng bên phải
+testa_0292,D. 50 km/h
+testa_0293,B. 2
+testa_0294,B. Cấm đỗ
+testa_0295,B. 2
+testa_0296,D. Cấm đi ngược chiều
+testa_0297,B. Cấm rẽ trái cho phương tiện ô tô
+testa_0298,C. Cảnh báo chỗ ngoặt nguy hiểm vòng bên phải
+testa_0299,A. Cấm rẽ trái
+testa_0300,A. Cảnh báo người đi bộ sang ngang
+testa_0301,C. Cả bên trái và bên phải
+testa_0302,"A. Đi chậm, công trường đang thi công, giao nhau với đường không ưu tiên, người đi bộ sang ngang"
+testa_0303,B. 2 biển
+testa_0304,C. Cấm đi ngược chiều
+testa_0305,"A. Đường người đi bộ, giao nhau với đường ưu tiên, đi chậm"
+testa_0306,C. Đi chậm
+testa_0307,B. 3
+testa_0308,B. Cấm đỗ
+testa_0309,A. Cấm rẽ trái
+testa_0310,B. 3
+testa_0311,"C. 2,0 km"
+testa_0312,C. Đi thẳng
+testa_0313,"D. Cấm đi ngược chiều, cấm dừng đỗ, cấm xe 2 và 3 bánh"
+testa_0314,B. Cấm xe 2 và 3 bánh
+testa_0315,A. Đi chậm
+testa_0316,C. Xe mô tô
+testa_0317,B. 3 km
+testa_0318,C. Đi thẳng
+testa_0319,"C. Biển cấm, biển phụ, biển báo nguy hiểm"
+testa_0320,"A. Biển hiệu lệnh nơi giao nhau, chạy theo vòng xuyến và chú ý quan sát"
+testa_0321,"A. 4,75m"
+testa_0322,A. Nút giao An Phú
+testa_0323,"D. Xe con, xe khách"
+testa_0324,C. Cầu Mỹ Thủy 3
+testa_0325,C. 5
+testa_0326,A. Cấm ô tô và cấm dừng đỗ
+testa_0327,"C. Xe ô tô, xe con, xe khách, xe tải"
+testa_0328,C. Biển hiệu lệnh
+testa_0329,B. 3
+testa_0330,"D. Xe khách, xe ba bánh, xe container"
+testa_0331,B. 60 km/h và 70 km/h
+testa_0332,C. 1
+testa_0333,D. Biển báo phụ
+testa_0334,"B. Cấm đi ngược chiều, hướng phải đi vòng sang phải"
+testa_0335,"B. Biển chỉ dẫn, biển cấm, biển cảnh báo, biển hiệu lệnh"
+testa_0336,B. Biển báo phụ
+testa_0337,"C. Biển chỉ dẫn, biển cấm"
+testa_0338,B. 2
+testa_0339,D. Xe ô tô
+testa_0340,"C. Biển chỉ dẫn, biển hiệu lệnh"
+testa_0341,"C. Biển chỉ dẫn, biển báo phụ, biển cấm, biển hiệu lệnh"
+testa_0342,A. 500m
+testa_0343,B. Nguyễn Thị Minh Khai
+testa_0344,A. Xe sơ-mi rơ-mooc
+testa_0345,B. 1.4 km
+testa_0346,B. 3
+testa_0347,"C. Biển chỉ dẫn, biển hiệu lệnh"
+testa_0348,"C. Vòng sang trái, vòng sang phải"
+testa_0349,A. 1
+testa_0350,B. Rẽ trái
+testa_0351,"B. 4,3m"
+testa_0352,B. Cấm đi ngược chiều
+testa_0353,"B. Cấm đi ngược chiều, hướng phải đi vòng sang phải"
+testa_0354,D. Biển báo phụ
+testa_0355,A. Cấm rẽ trái
+testa_0356,"A. Cấm đi ngược chiều, biển báo hiệu trạm xe buýt, biển hiệu lệnh hướng đi trên mỗi làn đường"
+testa_0357,D. Tất cả đều sai
+testa_0358,D. Tất cả đều đúng
+testa_0359,A. Cấm đỗ
+testa_0360,B. Cảnh báo đường bị thu hẹp
+testa_0361,A. Đường bị thu hẹp
+testa_0362,C. 2
+testa_0363,"C. Biển chỉ dẫn, biển báo phụ, biển cấm, biển cảnh báo"
+testa_0364,B. Cảnh báo đường đôi
+testa_0365,A. Cảnh báo người đi bộ sang ngang
+testa_0366,B. 6h - 22h
+testa_0367,A. Cấm xe con 24/24
+testa_0368,"A. Biển cấm, biển báo phụ"
+testa_0369,C. 3
+testa_0370,A. Cấm xe tải
+testa_0371,D. Đường không bằng phẳng
+testa_0372,A. Đường không bằng phẳng
+testa_0373,A. Hướng đi thẳng phải theo
+testa_0374,"B. Cấm đi ngược chiều, cấm đỗ xe"
+testa_0375,B. 3
+testa_0376,A. Cấm rẽ trái
+testa_0377,B. 2 biển
+testa_0378,A. 1 biển
+testa_0379,A. Cấm đi ngược chiều
+testa_0380,B. Cấm đi thẳng
+testa_0381,C. 2
+testa_0382,A. Cấm đỗ
+testa_0383,B. 2 làn
+testa_0384,"B. Cấm xe tải, cấm đỗ xe"
+testa_0385,B. 2
+testa_0386,C. Rẽ phải
+testa_0387,A. Cấm rẽ phải
+testa_0388,C. Xe khách
+testa_0389,A. Cấm đi ngược chiều
+testa_0390,C. Biển báo cấm
+testa_0391,A. Đi chậm
+testa_0392,A. Đi thẳng
+testa_0393,B. Cầu Sài Gòn
+testa_0394,B. Cấm đỗ
+testa_0395,B. 3
+testa_0396,B. Cấm đỗ
+testa_0397,B. 1
+testa_0398,"C. Cấm dừng đỗ xe, cấm đỗ xe"
+testa_0399,B. 3
+testa_0400,B. 3
+testa_0401,A. Cấm quay đầu từ 6h - 22h
+testa_0402,B. 2
+testa_0403,A. Thời gian áp dụng lệnh cấm từ 6h - 9h và 16h - 19h
+testa_0404,B. Biển báo cấm
+testa_0405,"D. Xe container, xe xích lô, xe lam"
