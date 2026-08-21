@@ -1,0 +1,9 @@
+{
+  "frame_count": 1,
+  "rows": 20,
+  "accuracy": 0.6,
+  "macro_f1": 0.6162280701754386,
+  "parse_rate": 1.0,
+  "mean_tiles": 6.6,
+  "variant": "lora_r16"
+}

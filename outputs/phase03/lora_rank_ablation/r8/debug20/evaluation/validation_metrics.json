@@ -1,0 +1,12 @@
+{
+  "rank": 8,
+  "lora_alpha": 16,
+  "trainable_parameters": 1081344,
+  "optimizer_steps": 2,
+  "peak_vram_gib": 14.22864580154419,
+  "elapsed_seconds": 44.68023654911667,
+  "rows": 20,
+  "accuracy": 0.65,
+  "macro_f1": 0.5984848484848485,
+  "parse_rate": 1.0
+}

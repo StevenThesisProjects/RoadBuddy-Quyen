@@ -1,0 +1,11 @@
+{
+  "phase": "01",
+  "status": "debug_complete",
+  "run_name": "debug20",
+  "validation_rows": 20,
+  "winner": "zero_shot_f1",
+  "winner_accuracy": 0.65,
+  "model_revision": "b98f263eab246eb5269ade64edbdca8a887dc44d",
+  "seed": 42,
+  "frozen_validation_ids": "/workspace/RoadBuddy/data/splits/phase01/validation_sample_ids.json"
+}

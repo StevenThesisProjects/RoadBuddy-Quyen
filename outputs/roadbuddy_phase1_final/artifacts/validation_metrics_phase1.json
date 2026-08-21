@@ -1,0 +1,15 @@
+{
+  "sample_count": 319,
+  "raw_exact_match_accuracy": 0.09404388714733543,
+  "normalized_choice_accuracy": 0.3385579937304075,
+  "empty_output_count": 0,
+  "empty_output_rate": 0.0,
+  "parse_failure_count": 0,
+  "parse_failure_rate": 0.0,
+  "project_metric": {
+    "accuracy": 0.09404388714733543,
+    "empty_output_rate": 0.0,
+    "empty_output_count": 0,
+    "sample_count": 319
+  }
+}

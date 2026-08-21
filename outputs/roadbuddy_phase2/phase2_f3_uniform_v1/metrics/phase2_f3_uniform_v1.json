@@ -1,0 +1,13 @@
+{
+  "run_id": "phase2_f3_uniform_v1",
+  "debug_mode": true,
+  "sample_count": 64,
+  "normalized_choice_accuracy": 0.125,
+  "raw_exact_match_accuracy": 0.046875,
+  "empty_output_rate": 0.0,
+  "parse_failure_rate": 0.421875,
+  "train_runtime_seconds": 432.3828775882721,
+  "validation_runtime_seconds": 85.39453983306885,
+  "peak_vram_gb": 11.822735786437988,
+  "changed_lora_tensors": 192
+}
