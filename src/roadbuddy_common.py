@@ -413,6 +413,48 @@ def read_video_frames(video_path: str, frame_count: int) -> list[Image.Image]:
     return frames
 
 
+def read_video_frames_at_indices(video_path: str, frame_indices: Iterable[int]) -> list[Image.Image]:
+    """Decode an explicit, chronologically ordered set of frame indices.
+
+    Temporal-grounding selectors return indices rather than decoded images so
+    candidate scoring and Vintern preprocessing remain separate, reproducible
+    stages. Duplicate or decreasing indices are rejected instead of silently
+    changing the selected evidence.
+    """
+    indices = [int(index) for index in frame_indices]
+    if not indices:
+        raise ValueError("frame_indices must contain at least one index")
+    if any(index < 0 for index in indices):
+        raise ValueError(f"frame indices cannot be negative: {indices}")
+    if indices != sorted(set(indices)):
+        raise ValueError(f"frame indices must be unique and chronological: {indices}")
+
+    capture = cv2.VideoCapture(video_path)
+    if not capture.isOpened():
+        raise RuntimeError(f"Cannot open video: {video_path}")
+    total_frames = int(capture.get(cv2.CAP_PROP_FRAME_COUNT) or 0)
+    if total_frames <= 0:
+        capture.release()
+        raise RuntimeError(f"Video reports no frames: {video_path}")
+    if indices[-1] >= total_frames:
+        capture.release()
+        raise ValueError(
+            f"Selected frame {indices[-1]} exceeds video range [0, {total_frames - 1}]"
+        )
+
+    frames = []
+    try:
+        for frame_index in indices:
+            capture.set(cv2.CAP_PROP_POS_FRAMES, frame_index)
+            ok, bgr = capture.read()
+            if not ok:
+                raise RuntimeError(f"Cannot decode frame {frame_index} from {video_path}")
+            frames.append(Image.fromarray(cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)))
+    finally:
+        capture.release()
+    return frames
+
+
 def load_visual_tiles_multiframe(row: pd.Series, frame_count: int, dtype=torch.bfloat16) -> tuple[torch.Tensor, list[int]]:
     transform = build_transform()
     all_tiles = []
@@ -423,6 +465,27 @@ def load_visual_tiles_multiframe(row: pd.Series, frame_count: int, dtype=torch.b
         all_tiles.extend(transform(tile) for tile in frame_tiles)
     if len(num_patches_list) != frame_count or not all_tiles:
         raise RuntimeError(f"Invalid multiframe tile expansion: frames={frame_count}, patches={num_patches_list}")
+    return torch.stack(all_tiles).to(dtype=dtype), num_patches_list
+
+
+def load_visual_tiles_at_indices(
+    row: pd.Series,
+    frame_indices: Iterable[int],
+    dtype=torch.bfloat16,
+) -> tuple[torch.Tensor, list[int]]:
+    """Build Vintern tiles for frames chosen by a temporal grounder."""
+    indices = [int(index) for index in frame_indices]
+    transform = build_transform()
+    all_tiles = []
+    num_patches_list = []
+    for image in read_video_frames_at_indices(str(row["video_path"]), indices):
+        frame_tiles = dynamic_preprocess(image)
+        num_patches_list.append(len(frame_tiles))
+        all_tiles.extend(transform(tile) for tile in frame_tiles)
+    if len(num_patches_list) != len(indices) or not all_tiles:
+        raise RuntimeError(
+            f"Invalid grounded tile expansion: indices={indices}, patches={num_patches_list}"
+        )
     return torch.stack(all_tiles).to(dtype=dtype), num_patches_list
 
 

@@ -1,0 +1,8 @@
+{
+  "source_notebook": "/workspace/RoadBuddy/notebooks/Phase06A_04_LoRA_R16_Full_Training.ipynb",
+  "source_sha256": "cff16548ccb5a5d1b8133131bb1cc5b3976a571cea2a0ad1dc77ddada5a46f43",
+  "temporary_notebook": "/workspace/RoadBuddy/outputs/phase06a/server_execution/temp_notebooks/Phase06A_04_LoRA_R16_Full_Training_full.ipynb",
+  "temporary_sha256": "bb7464f4b2fcd172966f44778133743083329497db14decff42375674407b7a0",
+  "changed_assignments": 1,
+  "scientific_parameters_changed": []
+}

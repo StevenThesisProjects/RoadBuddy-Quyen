@@ -1,0 +1,14 @@
+{
+  "optimizer_steps": 1,
+  "planned_optimizer_steps": 1,
+  "scheduler_total_steps": 2,
+  "scheduler_total_steps_source": "/workspace/RoadBuddy/outputs/phase06a/rank_ablation/r8/smoke/stage_a_inner_selection/training_result.json",
+  "best_step": null,
+  "best_metrics": null,
+  "early_stopped": false,
+  "changed_lora_tensors": 192,
+  "total_lora_tensors": 192,
+  "trainable_parameters": 1081344,
+  "peak_vram_gib": 11.784070014953613,
+  "elapsed_seconds": 17.091106813400984
+}

@@ -1,0 +1,14 @@
+{
+  "optimizer_steps": 1,
+  "planned_optimizer_steps": 1,
+  "scheduler_total_steps": 2,
+  "scheduler_total_steps_source": "explicit",
+  "best_step": null,
+  "best_metrics": null,
+  "early_stopped": false,
+  "changed_lora_tensors": 192,
+  "total_lora_tensors": 192,
+  "trainable_parameters": 2162688,
+  "peak_vram_gib": 11.796612739562988,
+  "elapsed_seconds": 15.738147021271288
+}

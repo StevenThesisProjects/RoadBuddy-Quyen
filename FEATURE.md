@@ -54,4 +54,31 @@ Skeleton notebooks reserve the next phases:
 - Phase 04: question-type analysis.
 - Phase 05: final comparison and report.
 
+## Novelty track: Traffic-Aware Temporal Grounding
+
+The instructor-proposed temporal-grounding track is specified in
+`TRAFFIC_TEMPORAL_GROUNDING.md` and implemented at the model-independent level
+in `src/traffic_temporal_grounding.py`. It is gated behind full baseline
+validation: do not interpret selector smoke tests as VQA improvements, and do
+not use support-frame annotations outside the training side.
+
+## Phase 06A run order — full baseline validation
+
+Run these notebooks top-to-bottom after the Phase 01 canonical split has been
+restored on the RTX 3090 server:
+
+1. `Phase06A_00_Frozen_Data_Audit_Protocol_Lock.ipynb`
+2. `Phase06A_01_Question_Taxonomy_Freeze.ipynb`
+3. `Phase06A_02_Inner_Dev_Checkpoint_Protocol.ipynb`
+4. `Phase06A_03_ZeroShot_Full_Validation.ipynb`
+5. `Phase06A_04_LoRA_R16_Full_Training.ipynb`
+6. `Phase06A_05_LoRA_R16_Full_Evaluation.ipynb`
+7. `Phase06A_06_LoRA_Rank_Ablation.ipynb`
+8. `Phase06A_07_Statistical_Analysis_Winner_Lock.ipynb`
+
+Every GPU notebook defaults to an explicit `smoke` scope. Full artifacts are
+written only when `RUN_SCOPE="full"` and the canonical 298-ID checksum and
+upstream status gates pass. Phase 06A never creates a held-out-test submission.
+See `PHASE06A_RUNBOOK.md` for server execution and resume instructions.
+
 The skeletons intentionally create no training results; they validate dependencies and reserve consistent artifact paths for the next implementation round.

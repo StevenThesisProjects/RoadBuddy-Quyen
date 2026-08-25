@@ -1,0 +1,21 @@
+sample_id,group_id,question_type,answer,prediction,raw_response,parse_status,correct,frame_count,frame_indices,frame_timestamps_sec,fps,duration_seconds,tile_allocation,num_patches_list,realized_tile_count,latency_seconds
+train_0006,464458b4_386_clip_006_0039_0048_Y,unknown,B,B,B,parsed,True,1,[135],[4.5],30.0,9.0,[8],[6],6,1.609150637872517
+train_0040,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,parsed,True,1,[105],[3.5],30.0,7.0,[8],[6],6,0.9406239157542586
+train_0041,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,parsed,True,1,[105],[3.5],30.0,7.0,[8],[6],6,0.9547140812501311
+train_0042,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,B,B,parsed,False,1,[105],[3.5],30.0,7.0,[8],[6],6,0.9109916621819139
+train_0043,a5cb63a2_035_clip_001_0000_0007_Y,unknown,B,B,B,parsed,True,1,[105],[3.5],30.0,7.0,[8],[6],6,0.9571206206455827
+train_0044,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,D,D,parsed,True,1,[105],[3.5],30.0,7.0,[8],[6],6,0.8977353628724813
+train_0050,23245211_035_clip_008_0051_0060_Y,unknown,A,B,B,parsed,False,1,[135],[4.5],30.0,9.0,[8],[6],6,0.6268944060429931
+train_0051,23245211_035_clip_008_0051_0060_Y,unknown,B,A,A. Có,parsed,False,1,[135],[4.5],30.0,9.0,[8],[6],6,1.0046293316408992
+train_0058,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,C,C,C,parsed,True,1,[135],[4.5],30.0,9.0,[8],[6],6,0.9830698594450951
+train_0059,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,B,B,parsed,True,1,[135],[4.5],30.0,9.0,[8],[6],6,0.9567723525688052
+train_0060,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,B,B. Sai,parsed,True,1,[135],[4.5],30.0,9.0,[8],[6],6,0.9516648324206471
+train_0061,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B,parsed,True,1,[150],[5.0],30.0,10.0,[8],[6],6,0.8426232095807791
+train_0062,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B. Sai,parsed,True,1,[150],[5.0],30.0,10.0,[8],[6],6,1.0026582768186927
+train_0063,8ae769ed_183_clip_008_0050_0060_Y,unknown,C,C,C,parsed,True,1,[150],[5.0],30.0,10.0,[8],[6],6,0.7035270472988486
+train_0070,add702c9_063_clip_003_0017_0024_Y,unknown,A,A,A. Cầu Khánh Hội,parsed,True,1,[105],[3.5],30.0,7.0,[8],[6],6,1.0785490348935127
+train_0071,add702c9_063_clip_003_0017_0024_Y,unknown,B,B,B. Sai,parsed,True,1,[105],[3.5],30.0,7.0,[8],[6],6,0.9837619559839368
+train_0078,4a8ff810_544_clip_001_0000_0005_Y,unknown,D,D,D,parsed,True,1,[75],[2.5],30.0,5.0,[8],[6],6,0.8654016060754657
+train_0079,4a8ff810_544_clip_001_0000_0005_Y,unknown,B,B,B. Sai,parsed,True,1,[75],[2.5],30.0,5.0,[8],[6],6,0.6350062917917967
+train_0088,83f02dc7_100_clip_001_0000_0006_N,unknown,A,B,B,parsed,False,1,[75],[2.5],30.0,5.0,[8],[8],8,0.8936909781768918
+train_0089,83f02dc7_100_clip_001_0000_0006_N,unknown,D,B,B,parsed,False,1,[75],[2.5],30.0,5.0,[8],[8],8,0.9959760596975684

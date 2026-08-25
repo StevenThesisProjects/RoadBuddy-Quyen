@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "config": {
+    "schema_version": 1,
+    "seed": 42,
+    "run_scope": "full",
+    "attention_implementation": "eager",
+    "dtype": "bfloat16",
+    "total_tile_budget": 8,
+    "use_thumbnail": false,
+    "frame_policy": "equal_temporal_bin_midpoints",
+    "max_new_tokens": 16,
+    "do_sample": false,
+    "num_beams": 1,
+    "primary_metric": "accuracy",
+    "secondary_metric": "macro_f1",
+    "bootstrap_resamples": 10000,
+    "noninferiority_margin": 0.02,
+    "rank": 16,
+    "alpha": 32,
+    "alpha_over_rank": 2.0,
+    "dropout": 0.05,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "gradient_accumulation": 16,
+    "locked_optimizer_step": 8,
+    "scheduler_total_steps": 120,
+    "selection_data": "inner_dev_only",
+    "final_training_rows": 1192
+  },
+  "config_sha256": "30c02be84fff88ca1df5be97f782720970d2b132325bc9a91eaa90f58f1e09ff",
+  "artifacts": [
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/full/config.json",
+      "bytes": 784,
+      "sha256": "78db29eb2d70934d0226fdf2f110ceb4728fc1814445081f81dcdf799759e635"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/full/best_step_decision.json",
+      "bytes": 1268,
+      "sha256": "2bf3bce176db2c79d4de7bb7bc8e1b1ea6b7c0b5d3864538d3ddbd8969ffe893"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/full/stage_a_inner_selection/training_history.csv",
+      "bytes": 10738,
+      "sha256": "19be3c68d249d5295391d737a8d20348cce7abf6f4f5e43de8aac59460e8be38"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/full/stage_a_inner_selection/training_result.json",
+      "bytes": 1497,
+      "sha256": "7dff63d407e1f77d701fca1e56749913a99c22134706e9fd6cb91d5afb703c8a"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/full/stage_b_final_retrain/training_history.csv",
+      "bytes": 2663,
+      "sha256": "edd178fbaaf505dd6a22066760f3b0d050052f2f56e1cf127cccea535dc7b20a"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/full/stage_b_final_retrain/training_result.json",
+      "bytes": 382,
+      "sha256": "b08be92daf30be16a8ea515720b4c38d0b0e2289f9259107afdc7b30c54d1a3b"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/full/final_adapter/adapter_config.json",
+      "bytes": 1245,
+      "sha256": "ad6833fd201c42128dbd4a7a76eca96b20d5df16e30a165e6a0d29efbec9f82e"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/full/final_adapter/adapter_model.safetensors",
+      "bytes": 8678888,
+      "sha256": "5d302f592e879c2f2dbfe2e6e5fb297eec40ad41f906c79110b5210257d6240c"
+    }
+  ]
+}

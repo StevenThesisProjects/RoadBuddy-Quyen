@@ -1,0 +1,8 @@
+{
+  "source_notebook": "/workspace/RoadBuddy/notebooks/Phase06A_03_ZeroShot_Full_Validation.ipynb",
+  "source_sha256": "6a14cf14cab0e5cf7d24d389f79556790853eaf0e5a2b1c84fada2da1c410219",
+  "temporary_notebook": "/workspace/RoadBuddy/outputs/phase06a/server_execution/temp_notebooks/Phase06A_03_ZeroShot_Full_Validation_full.ipynb",
+  "temporary_sha256": "39bb4ac37412c8548b321b724dfcc2f6613b7211a9c55e56dc9d20bd9e87ede5",
+  "changed_assignments": 1,
+  "scientific_parameters_changed": []
+}

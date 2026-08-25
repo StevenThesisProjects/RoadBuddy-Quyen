@@ -1,0 +1,10 @@
+{
+  "source_notebook": "/workspace/RoadBuddy/notebooks/Phase06A_05_LoRA_R16_Full_Evaluation.ipynb",
+  "source_sha256": "db154de9114950cddf16d1060b64af6023d9940a3a810d9ca75c4930e4c46e9d",
+  "temporary_notebook": "/workspace/RoadBuddy/outputs/phase06a/server_execution/temp_notebooks/Phase06A_05_LoRA_R16_Full_Evaluation_full.ipynb",
+  "temporary_sha256": "5bf660bfe8bb8825863e033f9af545742c01dacdaf7bf873c7d4823b2b5e807d",
+  "changed_assignments": 1,
+  "scientific_parameters_changed": [],
+  "retry": 1,
+  "previous_copy_error": "over-broad RUN_SCOPE replacement removed same-line config assignments; failed before inference"
+}

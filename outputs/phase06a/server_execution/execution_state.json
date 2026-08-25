@@ -1,0 +1,26 @@
+{
+  "phase": "06A",
+  "stage": "final_verification",
+  "scope": "full",
+  "status": "complete",
+  "started_at_utc": "2026-08-25T06:49:06Z",
+  "retry_count": 0,
+  "artifact_paths": [
+    "/workspace/RoadBuddy/outputs/phase06a/server_execution/preflight.json",
+    "/workspace/RoadBuddy/outputs/phase06a/data_audit/full/PHASE06A_00_STATUS.json",
+    "/workspace/RoadBuddy/outputs/phase06a/data_audit/full/dataset_audit.json",
+    "/workspace/RoadBuddy/outputs/phase06a/question_taxonomy/PHASE06A_01_STATUS.json",
+    "/workspace/RoadBuddy/data/splits/phase06a_inner/PHASE06A_02_STATUS.json",
+    "/workspace/RoadBuddy/outputs/phase06a/zero_shot/PHASE06A_03_STATUS_full.json",
+    "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/full/PHASE06A_04_STATUS.json",
+    "/workspace/RoadBuddy/outputs/phase06a/lora_r16_evaluation/PHASE06A_05_STATUS_full.json",
+    "/workspace/RoadBuddy/outputs/phase06a/rank_ablation/PHASE06A_06_STATUS_full.json",
+    "/workspace/RoadBuddy/outputs/phase06a/final_analysis/baseline_winner_manifest.json",
+    "/workspace/RoadBuddy/outputs/phase06a/server_execution/FINAL_SERVER_REPORT.md",
+    "/workspace/RoadBuddy/outputs/phase06a/server_execution/export_manifest.json",
+    "/workspace/RoadBuddy/outputs/phase06a/roadbuddy_phase06a_results.tar.gz",
+    "/workspace/RoadBuddy/outputs/phase06a/roadbuddy_phase06a_results.tar.gz.sha256"
+  ],
+  "last_error": null,
+  "completed_at_utc": "2026-08-25T15:45:55Z"
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "config": {
+    "schema_version": 1,
+    "seed": 42,
+    "run_scope": "full",
+    "attention_implementation": "eager",
+    "dtype": "bfloat16",
+    "total_tile_budget": 8,
+    "use_thumbnail": false,
+    "frame_policy": "equal_temporal_bin_midpoints",
+    "max_new_tokens": 16,
+    "do_sample": false,
+    "num_beams": 1,
+    "primary_metric": "accuracy",
+    "secondary_metric": "macro_f1",
+    "bootstrap_resamples": 10000,
+    "noninferiority_margin": 0.02,
+    "experiment_id": "L16-F8",
+    "frame_count": 8,
+    "adapter_sha256": "5d302f592e879c2f2dbfe2e6e5fb297eec40ad41f906c79110b5210257d6240c",
+    "adapter_training_frames": 1,
+    "evaluation_mode": "inference_frame_transfer"
+  },
+  "config_sha256": "7761824564cc738cacf7e28c462dafb2b8437e4ea34877860ed65eaaff2cffd4",
+  "artifacts": [
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_evaluation/L16-F8/full/predictions.csv",
+      "bytes": 93687,
+      "sha256": "7d5f7a329b2f77b6739e3ec8c49899fdfdc52c085642183ae5a3c368241cb7be"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_evaluation/L16-F8/full/metrics.json",
+      "bytes": 1051,
+      "sha256": "de87f2e0dd834c02f240ee6225d0b3f6b420a4116549492042f6ff99d95cbfbc"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_evaluation/L16-F8/full/runtime.json",
+      "bytes": 81,
+      "sha256": "3e6d994395ac0723230139950494e4554e721fbb138daff1ced9aa0c3d517d7e"
+    }
+  ]
+}
