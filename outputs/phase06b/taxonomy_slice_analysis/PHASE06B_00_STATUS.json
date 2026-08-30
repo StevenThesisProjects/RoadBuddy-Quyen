@@ -1,0 +1,14 @@
+{
+  "status": "awaiting_annotation",
+  "missing": [
+    "outputs/phase06a/question_taxonomy/taxonomy_frozen.csv",
+    "outputs/phase06a/question_taxonomy/taxonomy_manifest.json"
+  ],
+  "required": [
+    "annotator_1.csv",
+    "annotator_2.csv",
+    "taxonomy_adjudicated.csv",
+    "taxonomy_frozen.csv",
+    "taxonomy_manifest.json"
+  ]
+}
