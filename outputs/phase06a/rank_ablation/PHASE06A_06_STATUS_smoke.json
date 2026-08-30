@@ -1,0 +1,8 @@
+{
+  "phase": "06A.06",
+  "status": "smoke_complete",
+  "ranks": [
+    8
+  ],
+  "rows_per_experiment": 20
+}

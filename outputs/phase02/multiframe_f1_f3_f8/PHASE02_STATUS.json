@@ -1,0 +1,13 @@
+{
+  "phase": "02",
+  "status": "debug_complete",
+  "run_name": "debug20",
+  "upstream_run": "debug20",
+  "experiments": 6,
+  "best_variant": "zero_shot",
+  "best_frame_count": 1,
+  "best_accuracy": 0.7,
+  "validation_rows": 20,
+  "model_revision": "b98f263eab246eb5269ade64edbdca8a887dc44d",
+  "seed": 42
+}

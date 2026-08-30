@@ -1,0 +1,14 @@
+{
+  "optimizer_steps": 64,
+  "planned_optimizer_steps": 64,
+  "scheduler_total_steps": 120,
+  "scheduler_total_steps_source": "/workspace/RoadBuddy/outputs/phase06a/rank_ablation/r32/full/stage_a_inner_selection/training_result.json",
+  "best_step": null,
+  "best_metrics": null,
+  "early_stopped": false,
+  "changed_lora_tensors": 192,
+  "total_lora_tensors": 192,
+  "trainable_parameters": 4325376,
+  "peak_vram_gib": 18.002898693084717,
+  "elapsed_seconds": 1329.7185621438548
+}

@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-08-25T06:49:06Z",
+  "project_root": "/workspace/RoadBuddy",
+  "git_metadata_available": false,
+  "git_note": "Workspace is not a Git worktree; source SHA-256 hashes are recorded instead of a commit hash.",
+  "environment": {
+    "python": "3.10.12",
+    "python_executable": "/root/venvs/roadbuddy-rtx3090-py310/bin/python",
+    "torch": "2.13.0+cu126",
+    "cuda": "12.6",
+    "cuda_available": true,
+    "bf16_supported": true,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "vram_mib": 24576,
+    "jupyter_kernel": "roadbuddy-rtx3090-py310",
+    "notebook_runtime_dependencies_installed": ["nbformat 5.11.1", "nbclient 0.11.0", "nbconvert 7.17.1"]
+  },
+  "model": {
+    "id": "5CD-AI/Vintern-1B-v3_5",
+    "revision": "b98f263eab246eb5269ade64edbdca8a887dc44d",
+    "loaded_offline": true,
+    "template": "Hermes-2",
+    "num_image_token": 256,
+    "dtype": "torch.bfloat16",
+    "device": "cuda:0"
+  },
+  "dataset": {
+    "raw_rows": 1490,
+    "train_rows": 1192,
+    "validation_rows": 298,
+    "train_groups": 439,
+    "validation_groups": 110,
+    "sample_overlap": 0,
+    "group_overlap": 0,
+    "unique_video_paths": 549,
+    "missing_video_paths": 0,
+    "validation_ids_sha256": "dbfa2d337f56bd681df70206fa8cee83d743c6743a3493619083d03b804145c5"
+  },
+  "checks": {
+    "unit_tests": {"status": "PASS", "passed": 8, "failed": 0, "skipped": 0},
+    "notebook_json_valid": 8,
+    "notebook_python_syntax_valid": 8,
+    "module_python_syntax": "PASS",
+    "phase06a_public_test_submission_workflow_found": false
+  },
+  "source_sha256": {
+    "src/roadbuddy_common.py": "2b8560e307c0352cd14bfecbd1147ba7010f7929fc0066c1cdfe7b3aacf9d47d",
+    "src/phase06a_common.py": "3c68e0cd759feec49c20941d0ba25eea709bc6224929f0dc029b69dd9ab0a72a",
+    "src/traffic_temporal_grounding.py": "3148335b50d8505b607ff5a5d494bc067c9bd092b7402008297a956e04616719"
+  }
+}

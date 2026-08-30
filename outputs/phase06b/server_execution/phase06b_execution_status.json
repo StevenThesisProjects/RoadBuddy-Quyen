@@ -1,0 +1,47 @@
+{
+  "phase": "06B",
+  "recorded_at_utc": "2026-08-30T14:44:00.666731+00:00",
+  "status": "blocked_on_required_human_annotation",
+  "last_attempted_stage": "Phase06B_00",
+  "stage00_status_path": "outputs/phase06b/taxonomy_slice_analysis/PHASE06B_00_STATUS.json",
+  "stage00_status": {
+    "status": "awaiting_annotation",
+    "missing": [
+      "outputs/phase06a/question_taxonomy/taxonomy_frozen.csv",
+      "outputs/phase06a/question_taxonomy/taxonomy_manifest.json"
+    ],
+    "required": [
+      "annotator_1.csv",
+      "annotator_2.csv",
+      "taxonomy_adjudicated.csv",
+      "taxonomy_frozen.csv",
+      "taxonomy_manifest.json"
+    ]
+  },
+  "preflight": {
+    "unit_tests": "12/12 PASS",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "baseline_gate": "L32-F1 / 298 rows PASS"
+  },
+  "annotation_input": {
+    "path": "outputs/phase06a/question_taxonomy/taxonomy_annotation_blind.csv",
+    "data_rows": 298,
+    "sha256": "27dbce23f95fec7d2869dba2aa68bc4d0a51d0c8017efe73eac22ec527fd13d7",
+    "blind_to_model_predictions": true
+  },
+  "required_next_files": [
+    "outputs/phase06a/question_taxonomy/annotator_1.csv",
+    "outputs/phase06a/question_taxonomy/annotator_2.csv",
+    "outputs/phase06a/question_taxonomy/taxonomy_adjudicated.csv",
+    "outputs/phase06a/question_taxonomy/taxonomy_frozen.csv",
+    "outputs/phase06a/question_taxonomy/taxonomy_manifest.json"
+  ],
+  "not_run": [
+    "Phase06B_01",
+    "Phase06B_02",
+    "Phase06B_03",
+    "Phase06B_04"
+  ],
+  "not_run_reason": "Human taxonomy is a hard prerequisite; labels must not be synthesized.",
+  "public_test_accessed": false
+}

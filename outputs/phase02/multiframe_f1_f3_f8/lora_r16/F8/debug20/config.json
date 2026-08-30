@@ -1,0 +1,14 @@
+{
+  "variant": "lora_r16",
+  "frame_count": 8,
+  "model_id": "5CD-AI/Vintern-1B-v3_5",
+  "revision": "b98f263eab246eb5269ade64edbdca8a887dc44d",
+  "seed": 42,
+  "limit": 20,
+  "sampling": "equal_temporal_bin_midpoints",
+  "max_dynamic_tiles_per_frame": 6,
+  "num_patches_list": "one entry per frame",
+  "image_flags": "one per visual tile",
+  "template": "Hermes-2",
+  "flash_attention": false
+}

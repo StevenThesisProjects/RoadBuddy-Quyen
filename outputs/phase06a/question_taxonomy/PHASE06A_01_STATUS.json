@@ -1,0 +1,8 @@
+{
+  "phase": "06A.01",
+  "status": "awaiting_annotation",
+  "required": [
+    "/workspace/RoadBuddy/outputs/phase06a/question_taxonomy/annotator_1.csv",
+    "/workspace/RoadBuddy/outputs/phase06a/question_taxonomy/annotator_2.csv"
+  ]
+}

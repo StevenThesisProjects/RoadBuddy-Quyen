@@ -1,0 +1,13 @@
+{
+  "phase": "03",
+  "status": "debug_complete",
+  "run_name": "debug20",
+  "ranks": [
+    8
+  ],
+  "best_rank": 8,
+  "best_accuracy": 0.65,
+  "validation_rows": 20,
+  "model_revision": "b98f263eab246eb5269ade64edbdca8a887dc44d",
+  "seed": 42
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "config": {
+    "schema_version": 1,
+    "seed": 42,
+    "run_scope": "smoke",
+    "attention_implementation": "eager",
+    "dtype": "bfloat16",
+    "total_tile_budget": 8,
+    "use_thumbnail": false,
+    "frame_policy": "equal_temporal_bin_midpoints",
+    "max_new_tokens": 16,
+    "do_sample": false,
+    "num_beams": 1,
+    "primary_metric": "accuracy",
+    "secondary_metric": "macro_f1",
+    "bootstrap_resamples": 10000,
+    "noninferiority_margin": 0.02,
+    "rank": 16,
+    "alpha": 32,
+    "alpha_over_rank": 2.0,
+    "dropout": 0.05,
+    "targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "gradient_accumulation": 16,
+    "locked_optimizer_step": 1,
+    "scheduler_total_steps": 2,
+    "selection_data": "inner_dev_only",
+    "final_training_rows": 20
+  },
+  "config_sha256": "860cc8a5edf65ad6aac0992fa2bcbdd382de38cd340083334235a6c7225bec57",
+  "artifacts": [
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/smoke/config.json",
+      "bytes": 781,
+      "sha256": "0cfd77dd88f356b60e726e7f7ebf62d9c2c0c12c9b7382647ba1b756fd418c57"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/smoke/best_step_decision.json",
+      "bytes": 1227,
+      "sha256": "8a2b7f3b963ad480ea856507f7b02d817ca18e23028aed6e8194c65ceaaf33aa"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/smoke/stage_a_inner_selection/training_history.csv",
+      "bytes": 614,
+      "sha256": "13cb43ca52620b3e5d3b82cceb174d8e2a1c697603d62edf8111ab2b6d1b3845"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/smoke/stage_a_inner_selection/training_result.json",
+      "bytes": 1452,
+      "sha256": "ce2fbcc454bba19353cd4fde5d75f284e7179405ed701b2f7c30a1500c609f00"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/smoke/stage_b_final_retrain/training_history.csv",
+      "bytes": 414,
+      "sha256": "62379d470e981112cc88bc2afd8b5a018fe8082d3ac7784301e7e4f1287beb4c"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/smoke/stage_b_final_retrain/training_result.json",
+      "bytes": 381,
+      "sha256": "66b3dff4afe0be69789c8cecb5b50866cd8e1b3a5e88f624d1a390c8b1cf27d2"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/smoke/final_adapter/adapter_config.json",
+      "bytes": 1245,
+      "sha256": "8c9ead5a6d8f98e1bfa03868be41ea32e817718c4f12db901a9a9f4d57aab442"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_training/smoke/final_adapter/adapter_model.safetensors",
+      "bytes": 8678888,
+      "sha256": "599ad3cd9b6960e04c88d9b7e0859514be4cd13972b6246cd0629503a2af8f3e"
+    }
+  ]
+}

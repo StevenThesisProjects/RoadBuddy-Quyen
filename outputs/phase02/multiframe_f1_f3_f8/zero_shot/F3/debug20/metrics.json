@@ -1,0 +1,9 @@
+{
+  "frame_count": 3,
+  "rows": 20,
+  "accuracy": 0.65,
+  "macro_f1": 0.5966666666666666,
+  "parse_rate": 1.0,
+  "mean_tiles": 19.8,
+  "variant": "zero_shot"
+}

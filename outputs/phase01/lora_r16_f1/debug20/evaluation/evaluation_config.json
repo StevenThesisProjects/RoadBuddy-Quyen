@@ -1,0 +1,10 @@
+{
+  "model_id": "5CD-AI/Vintern-1B-v3_5",
+  "revision": "b98f263eab246eb5269ade64edbdca8a887dc44d",
+  "adapter": "/workspace/RoadBuddy/outputs/phase01/lora_r16_f1/debug20/checkpoints/adapter_final",
+  "validation_ids": "/workspace/RoadBuddy/data/splits/phase01/validation_sample_ids.json",
+  "seed": 42,
+  "frames": 1,
+  "flash_attention": false,
+  "limit": 20
+}

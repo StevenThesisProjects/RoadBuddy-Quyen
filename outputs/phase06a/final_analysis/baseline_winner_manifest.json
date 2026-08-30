@@ -1,0 +1,65 @@
+{
+  "phase": "06A",
+  "status": "complete",
+  "winner": "L32-F1",
+  "selection_rule": "highest accuracy; if no clear superiority choose least-complex configuration within preregistered 0.02 non-inferiority margin",
+  "primary_metric": "accuracy",
+  "secondary_metric": "macro_f1",
+  "validation_rows": 298,
+  "validation_ids_sha256": "dbfa2d337f56bd681df70206fa8cee83d743c6743a3493619083d03b804145c5",
+  "winner_predictions": {
+    "path": "/workspace/RoadBuddy/outputs/phase06a/rank_ablation/r32/full/predictions.csv",
+    "bytes": 39313,
+    "sha256": "d4b3862681cd867be9aac4c5f9cf268cfae1bdb38a20b6543ace0fa97c7429f6"
+  },
+  "source_experiments": {
+    "Z-F1": {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/zero_shot/Z-F1/full/predictions.csv",
+      "bytes": 40195,
+      "sha256": "6bc4606011d7dded3309c7ca2c7f828e4cceb6407e0aef3b8e408a1b33e59c63"
+    },
+    "Z-F3": {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/zero_shot/Z-F3/full/predictions.csv",
+      "bytes": 57900,
+      "sha256": "660be6d7c4e7ca0a6ba89af9324c713a983b37597d9145258ce89fdac945caab"
+    },
+    "Z-F8": {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/zero_shot/Z-F8/full/predictions.csv",
+      "bytes": 94712,
+      "sha256": "2c4be476b49ab1a76585d88bae0d8373a6de20dc20192303a7f6f45fbb08018b"
+    },
+    "L16-F1": {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_evaluation/L16-F1/full/predictions.csv",
+      "bytes": 39341,
+      "sha256": "28875293a5c762b325e9b88838abedf53b514c60df66ceb36c9e7904c180c00f"
+    },
+    "L16-F3": {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_evaluation/L16-F3/full/predictions.csv",
+      "bytes": 57172,
+      "sha256": "27967ab8069a89a77c227834061a81c491f8adb1fe95992950b996e500b0db80"
+    },
+    "L16-F8": {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/lora_r16_evaluation/L16-F8/full/predictions.csv",
+      "bytes": 93687,
+      "sha256": "7d5f7a329b2f77b6739e3ec8c49899fdfdc52c085642183ae5a3c368241cb7be"
+    },
+    "L8-F1": {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/rank_ablation/r8/full/predictions.csv",
+      "bytes": 39341,
+      "sha256": "02347b0931dbb4f8e9f5e9379f7a2ba24331b5fff111e93f0222b12f9845ce04"
+    },
+    "L32-F1": {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/rank_ablation/r32/full/predictions.csv",
+      "bytes": 39313,
+      "sha256": "d4b3862681cd867be9aac4c5f9cf268cfae1bdb38a20b6543ace0fa97c7429f6"
+    },
+    "L64-F1": {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/rank_ablation/r64/full/predictions.csv",
+      "bytes": 39300,
+      "sha256": "43386ba53711f644a3a4dc56eae8d78b35ea561d1cfc4187d7468cb94d2b2823"
+    }
+  },
+  "bootstrap_resamples": 10000,
+  "mcnemar_role": "secondary; sample-pair test does not remove within-video correlation",
+  "holm_corrected": true
+}

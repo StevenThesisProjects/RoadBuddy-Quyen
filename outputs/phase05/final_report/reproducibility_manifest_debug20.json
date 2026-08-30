@@ -1,0 +1,61 @@
+{
+  "project_root": "/workspace/RoadBuddy",
+  "model_id": "5CD-AI/Vintern-1B-v3_5",
+  "model_revision": "b98f263eab246eb5269ade64edbdca8a887dc44d",
+  "seed": 42,
+  "flash_attention": false,
+  "template": "Hermes-2",
+  "run_scope": "debug20",
+  "validation_ids_path": "/workspace/RoadBuddy/data/splits/phase01/validation_sample_ids.json",
+  "validation_ids_sha256": "dbfa2d337f56bd681df70206fa8cee83d743c6743a3493619083d03b804145c5",
+  "phase_statuses": {
+    "phase01": {
+      "phase": "01",
+      "status": "debug_complete",
+      "run_name": "debug20",
+      "validation_rows": 20,
+      "winner": "zero_shot_f1",
+      "winner_accuracy": 0.65,
+      "model_revision": "b98f263eab246eb5269ade64edbdca8a887dc44d",
+      "seed": 42,
+      "frozen_validation_ids": "/workspace/RoadBuddy/data/splits/phase01/validation_sample_ids.json"
+    },
+    "phase02": {
+      "phase": "02",
+      "status": "debug_complete",
+      "run_name": "debug20",
+      "upstream_run": "debug20",
+      "experiments": 6,
+      "best_variant": "zero_shot",
+      "best_frame_count": 1,
+      "best_accuracy": 0.7,
+      "validation_rows": 20,
+      "model_revision": "b98f263eab246eb5269ade64edbdca8a887dc44d",
+      "seed": 42
+    },
+    "phase03": {
+      "phase": "03",
+      "status": "debug_complete",
+      "run_name": "debug20",
+      "ranks": [
+        8
+      ],
+      "best_rank": 8,
+      "best_accuracy": 0.65,
+      "validation_rows": 20,
+      "model_revision": "b98f263eab246eb5269ade64edbdca8a887dc44d",
+      "seed": 42
+    },
+    "phase04": {
+      "phase": "04",
+      "status": "debug_complete",
+      "run_name": "debug20",
+      "experiments": 9,
+      "question_types": 1,
+      "validation_rows": 20,
+      "small_slice_threshold": 20,
+      "model_revision": "b98f263eab246eb5269ade64edbdca8a887dc44d",
+      "seed": 42
+    }
+  }
+}

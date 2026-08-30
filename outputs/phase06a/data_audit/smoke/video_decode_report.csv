@@ -1,0 +1,7 @@
+video_path,exists,fps,total_frames,duration_seconds,decodes,error
+/workspace/RoadBuddy/data/train/videos/001a9a8b_340_clip_006_0037_0046_Y.mp4,True,30.0,270,9.0,True,
+/workspace/RoadBuddy/data/train/videos/00af5b3a_305_clip_003_0012_0018_N.mp4,True,30.0,180,6.0,True,
+/workspace/RoadBuddy/data/train/videos/00b9d4a3_129_clip_002_0009_0015_N.mp4,True,30.0,180,6.0,True,
+/workspace/RoadBuddy/data/train/videos/00e85ece_240_clip_011_0075_0081_Y.mp4,True,30.0,150,5.0,True,
+/workspace/RoadBuddy/data/train/videos/01902620_182_clip_014_0097_0105_N.mp4,True,30.0,200,6.666666666666667,True,
+/workspace/RoadBuddy/data/train/videos/01fa964e_401_clip_008_0050_0060_Y.mp4,True,30.0,300,10.0,True,
