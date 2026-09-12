@@ -1,4 +1,6 @@
+import tempfile
 import unittest
+from pathlib import Path
 
 try:
     import torch
@@ -17,6 +19,7 @@ class TemporalGroundingTest(unittest.TestCase):
             temporal_grounding_loss,
             uniform_candidate_indices,
             weak_targets_from_support_times,
+            run_selector_training_stage,
         )
 
         globals().update(
@@ -27,6 +30,7 @@ class TemporalGroundingTest(unittest.TestCase):
                 "temporal_grounding_loss": temporal_grounding_loss,
                 "uniform_candidate_indices": uniform_candidate_indices,
                 "weak_targets_from_support_times": weak_targets_from_support_times,
+                "run_selector_training_stage": run_selector_training_stage,
             }
         )
 
@@ -84,6 +88,21 @@ class TemporalGroundingTest(unittest.TestCase):
             scores, timestamps, k=2, min_temporal_gap=1.0
         )
         self.assertEqual(selected.tolist(), [[1, 3]])
+
+
+    def test_selector_training_records_partial_accumulation_and_state(self):
+        torch.manual_seed(42)
+        config = TemporalGroundingConfig(frame_feature_dim=4, question_feature_dim=3, hidden_dim=8, candidate_count=5, selected_count=1, dropout=0.0)
+        model = TrafficAwareTemporalGrounder(config)
+        def record(index, prefix):
+            return {"sample_id": f"{prefix}{index}", "group_id": f"{prefix}g{index}", "frame_features": torch.randn(5,4), "question_features": torch.randn(3), "normalized_timestamps": torch.linspace(0,1,5), "valid_mask": torch.ones(5,dtype=torch.bool), "relevance_targets": torch.softmax(torch.randn(5),dim=0)}
+        train=[record(i,"t") for i in range(3)]; dev=[record(i,"d") for i in range(2)]
+        with tempfile.TemporaryDirectory() as directory:
+            result=run_selector_training_stage(model,train,output_dir=Path(directory),epochs=1,gradient_accumulation=2,learning_rate=1e-3,evaluation_records=dev,evaluation_steps=1,patience_evaluations=3)
+            self.assertEqual(result["optimizer_steps"],2)
+            self.assertEqual(result["history"][-1]["accumulated_micro_batches"],1)
+            self.assertTrue(result["changed_parameters"])
+            self.assertTrue(Path(result["final_checkpoint"]).is_file())
 
 
 if __name__ == "__main__":

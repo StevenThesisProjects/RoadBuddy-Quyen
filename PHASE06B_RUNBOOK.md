@@ -70,3 +70,15 @@ for path in sorted(pathlib.Path('notebooks').glob('Phase06B_*.ipynb')):
     nb = nbformat.read(path, as_version=4)
     for cell in nb.cells:
         if cell.cell_type == 'code':
+## Chuỗi TATG sau khi human decision khóa track
+
+1. `Phase06B_03_Temporal_Grounding_Preflight.ipynb` — khóa input manifest schema v2.
+2. `Phase06B_03A_Train_Temporal_Annotation_Audit.ipynb` — audit interval train-only.
+3. `Phase06B_03B_Temporal_Feature_Bank_Build.ipynb` — kiểm tra bank tách `train_fit`/`inner_dev`/`validation`; smoke/full cách ly.
+4. `Phase06B_03C_QTG_TATG_Selector_Training.ipynb` — independent QTG/TATG reset; chỉ train/inner-dev.
+5. `Phase06B_03E_Full_Temporal_VQA_Evaluation.ipynb` — exact 16-arm matrix và 298-ID full gate.
+6. `Phase06B_03D_Grounding_Diagnostic_Evaluation.ipynb` — chỉ mở held-out support sau prediction hash lock.
+7. `Phase06B_04_Novelty_Statistical_Analysis_Winner_Lock.ipynb` — hai comparison families và winner lock.
+
+Schema hiện tại là version 2. Taxonomy freeze cần kappa >= 0.70 hoặc signed exception provenance. Registry temporal phải chứa chính xác `L32-F1` và `U/RND/QTG/TATG/ORACLE-{1,3,8}`; chỉ `L32-F1`, QTG và TATG nằm trong `winner_candidates`. Mọi arm giữ maximum total visual-tile budget 8.
+

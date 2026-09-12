@@ -11,8 +11,12 @@ targets for the training split. Validation and test selection must use model
 scores alone.
 """
 
+import json
+import math
+import time
 from dataclasses import asdict, dataclass
-from typing import Any, Optional
+from pathlib import Path
+from typing import Any, Mapping, Optional, Sequence
 
 import torch
 import torch.nn as nn
@@ -280,3 +284,125 @@ class TrafficAwareTemporalGrounder(nn.Module):
         )
         return selected, scores
 
+
+
+def _selector_record_loss(
+    model: TrafficAwareTemporalGrounder, record: Mapping[str, Any], device: torch.device,
+) -> torch.Tensor:
+    frame = torch.as_tensor(record["frame_features"], dtype=torch.float32, device=device).unsqueeze(0)
+    question = torch.as_tensor(record["question_features"], dtype=torch.float32, device=device).unsqueeze(0)
+    normalized = torch.as_tensor(record["normalized_timestamps"], dtype=torch.float32, device=device).unsqueeze(0)
+    targets = torch.as_tensor(record["relevance_targets"], dtype=torch.float32, device=device).unsqueeze(0)
+    mask = torch.as_tensor(record["valid_mask"], dtype=torch.bool, device=device).unsqueeze(0)
+    traffic = record.get("traffic_features")
+    traffic_tensor = None if traffic is None else torch.as_tensor(traffic, dtype=torch.float32, device=device).unsqueeze(0)
+    scores = model(frame, question, normalized, traffic_features=traffic_tensor, valid_mask=mask)
+    return temporal_grounding_loss(scores, targets, mask)
+
+
+def validate_selector_records(records: Sequence[Mapping[str, Any]], config: TemporalGroundingConfig) -> None:
+    if not records:
+        raise ValueError("Selector training requires at least one feature record")
+    required = {"sample_id", "group_id", "frame_features", "question_features", "normalized_timestamps", "valid_mask", "relevance_targets"}
+    for index, record in enumerate(records):
+        missing = sorted(required - set(record))
+        if missing:
+            raise ValueError(f"Selector record {index} is missing fields: {missing}")
+        frame = torch.as_tensor(record["frame_features"])
+        question = torch.as_tensor(record["question_features"])
+        mask = torch.as_tensor(record["valid_mask"])
+        target = torch.as_tensor(record["relevance_targets"])
+        if frame.shape != (config.candidate_count, config.frame_feature_dim):
+            raise ValueError(f"Selector record {index} frame feature shape mismatch")
+        if question.shape != (config.question_feature_dim,) or mask.shape != (config.candidate_count,) or target.shape != (config.candidate_count,):
+            raise ValueError(f"Selector record {index} question/mask/target shape mismatch")
+        traffic = record.get("traffic_features")
+        if config.traffic_feature_dim:
+            if traffic is None or torch.as_tensor(traffic).shape != (config.candidate_count, config.traffic_feature_dim):
+                raise ValueError(f"Selector record {index} traffic feature shape mismatch")
+        elif traffic is not None:
+            raise ValueError("QTG records cannot inject traffic features")
+
+
+def run_selector_training_stage(
+    model: TrafficAwareTemporalGrounder,
+    train_records: Sequence[Mapping[str, Any]],
+    *,
+    output_dir: Path,
+    epochs: int,
+    gradient_accumulation: int,
+    learning_rate: float,
+    weight_decay: float = 0.0,
+    max_grad_norm: float = 1.0,
+    max_optimizer_steps: int | None = None,
+    evaluation_records: Sequence[Mapping[str, Any]] | None = None,
+    evaluation_steps: int = 1,
+    patience_evaluations: int = 3,
+    seed: int = 42,
+) -> dict[str, Any]:
+    """Train only selector parameters with correct final partial accumulation."""
+    if epochs <= 0 or gradient_accumulation <= 0 or evaluation_steps <= 0 or patience_evaluations <= 0:
+        raise ValueError("Training counts must be positive")
+    validate_selector_records(train_records, model.config)
+    if evaluation_records is not None:
+        validate_selector_records(evaluation_records, model.config)
+        train_groups = {str(record["group_id"]) for record in train_records}
+        dev_groups = {str(record["group_id"]) for record in evaluation_records}
+        if train_groups & dev_groups:
+            raise ValueError("Selector train and inner-dev groups overlap")
+    output_dir = Path(output_dir); output_dir.mkdir(parents=True, exist_ok=True)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available(): torch.cuda.manual_seed_all(seed)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model.to(device); model.train()
+    trainable = {name: parameter for name, parameter in model.named_parameters() if parameter.requires_grad}
+    if not trainable or len(trainable) != len(list(model.parameters())):
+        raise ValueError("The selector optimizer may contain selector parameters only")
+    initial = {name: parameter.detach().cpu().clone() for name, parameter in trainable.items()}
+    optimizer = torch.optim.AdamW(trainable.values(), lr=learning_rate, weight_decay=weight_decay)
+    available_steps = math.ceil(len(train_records) / gradient_accumulation) * epochs
+    horizon = min(available_steps, max_optimizer_steps) if max_optimizer_steps is not None else available_steps
+    scheduler = torch.optim.lr_scheduler.LambdaLR(optimizer, lambda step: max(0.0, (horizon-step)/max(1,horizon)))
+    generator = torch.Generator().manual_seed(seed)
+    history=[]; optimizer_step=0; best_step=None; best_loss=float("inf"); best_state=None; stale=0; started=time.perf_counter(); stop=False
+    if device.type == "cuda": torch.cuda.reset_peak_memory_stats()
+    for epoch in range(epochs):
+        order=torch.randperm(len(train_records),generator=generator).tolist()
+        for offset in range(0,len(order),gradient_accumulation):
+            window=order[offset:offset+gradient_accumulation]
+            optimizer.zero_grad(set_to_none=True); raw_losses=[]; sample_ids=[]
+            for index in window:
+                loss=_selector_record_loss(model,train_records[index],device)
+                raw_losses.append(float(loss.detach())); sample_ids.append(str(train_records[index]["sample_id"]))
+                (loss/len(window)).backward()
+            gradient_norm=torch.nn.utils.clip_grad_norm_(trainable.values(),max_grad_norm)
+            optimizer.step(); scheduler.step(); optimizer_step+=1
+            row={"epoch":epoch+1,"optimizer_step":optimizer_step,"unscaled_loss":sum(raw_losses)/len(raw_losses),"gradient_norm":float(gradient_norm),"learning_rate":float(scheduler.get_last_lr()[0]),"accumulated_sample_ids":sample_ids,"accumulated_micro_batches":len(window)}
+            if evaluation_records is not None and optimizer_step % evaluation_steps == 0:
+                model.eval()
+                with torch.no_grad(): dev_loss=sum(float(_selector_record_loss(model,r,device)) for r in evaluation_records)/len(evaluation_records)
+                model.train(); row["inner_dev_loss"]=dev_loss
+                if dev_loss < best_loss:
+                    best_loss=dev_loss; best_step=optimizer_step; stale=0; best_state={name:p.detach().cpu().clone() for name,p in model.state_dict().items()}
+                    checkpoint=output_dir/'checkpoints'/f'step-{optimizer_step}'; checkpoint.mkdir(parents=True,exist_ok=True)
+                    torch.save({"model":best_state,"optimizer":optimizer.state_dict(),"scheduler":scheduler.state_dict(),"torch_rng_state":torch.get_rng_state(),"cuda_rng_state":torch.cuda.get_rng_state_all() if torch.cuda.is_available() else None,"optimizer_step":optimizer_step,"accumulated_sample_ids":sample_ids},checkpoint/'selector_training_state.pt')
+                else:
+                    stale+=1
+                    if stale>=patience_evaluations: stop=True
+            history.append(row)
+            if optimizer_step>=horizon or stop: break
+        if optimizer_step>=horizon or stop: break
+    if evaluation_records is None:
+        best_step=optimizer_step; best_loss=None; best_state={name:p.detach().cpu().clone() for name,p in model.state_dict().items()}
+    if best_state is None or best_step is None:
+        raise RuntimeError("No selector checkpoint was selected")
+    model.load_state_dict(best_state)
+    changed=[name for name,p in trainable.items() if not torch.equal(initial[name],p.detach().cpu())]
+    if not changed:
+        raise RuntimeError("Selector parameters did not change")
+    final_path=output_dir/'selector_final.pt'
+    torch.save({"model":best_state,"config":model.config.to_dict(),"locked_optimizer_step":best_step},final_path)
+    (output_dir/'training_history.json').write_text(json.dumps(history,indent=2)+'\n')
+    result={"optimizer_steps":optimizer_step,"best_step":best_step,"best_inner_dev_loss":best_loss,"changed_parameters":changed,"trainable_parameters":sum(p.numel() for p in trainable.values()),"history":history,"runtime_seconds":time.perf_counter()-started,"peak_vram_bytes":torch.cuda.max_memory_allocated() if device.type=="cuda" else 0,"final_checkpoint":str(final_path)}
+    (output_dir/'training_result.json').write_text(json.dumps({k:v for k,v in result.items() if k!='history'},indent=2)+'\n')
+    return result

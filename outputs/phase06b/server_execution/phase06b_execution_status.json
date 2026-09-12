@@ -1,47 +1,81 @@
 {
   "phase": "06B",
-  "recorded_at_utc": "2026-08-30T14:44:00.666731+00:00",
-  "status": "blocked_on_required_human_annotation",
-  "last_attempted_stage": "Phase06B_00",
-  "stage00_status_path": "outputs/phase06b/taxonomy_slice_analysis/PHASE06B_00_STATUS.json",
-  "stage00_status": {
-    "status": "awaiting_annotation",
-    "missing": [
-      "outputs/phase06a/question_taxonomy/taxonomy_frozen.csv",
-      "outputs/phase06a/question_taxonomy/taxonomy_manifest.json"
-    ],
-    "required": [
-      "annotator_1.csv",
-      "annotator_2.csv",
-      "taxonomy_adjudicated.csv",
-      "taxonomy_frozen.csv",
-      "taxonomy_manifest.json"
-    ]
+  "updated_at_utc": "2026-09-12T14:52:05.132937+00:00",
+  "status": "blocked_on_expected_human_and_data_gates",
+  "current_stage": "Stage C — Human taxonomy gate",
+  "safe_implementation_work_complete": true,
+  "stages": {
+    "A_preflight": {
+      "status": "complete_with_git_metadata_limitation",
+      "report": "outputs/phase06b/server_execution/preflight.json"
+    },
+    "B_protocol_hardening": {
+      "status": "complete",
+      "schema_version": 2,
+      "unit_tests": "19/19 PASS"
+    },
+    "C_human_taxonomy": {
+      "status": "awaiting_annotation",
+      "status_path": "outputs/phase06b/taxonomy_slice_analysis/PHASE06B_00_STATUS.json"
+    },
+    "D_human_novelty_decision": {
+      "status": "not_reached"
+    },
+    "E_temporal_inputs": {
+      "status": "awaiting_temporal_annotation_and_encoder_traffic_manifests",
+      "audit_status": "outputs/phase06b/temporal_annotation_audit/PHASE06B_03A_STATUS.json",
+      "feature_bank_status": "outputs/phase06b/feature_banks/smoke/PHASE06B_03B_STATUS.json"
+    },
+    "F_selector_training": {
+      "status": "not_run",
+      "reason": "requires human-selected TATG track and audited train support/feature banks"
+    },
+    "G_grounding_diagnostics": {
+      "status": "not_run",
+      "reason": "requires locked full prediction hashes and held-out human support labels"
+    },
+    "H_full_temporal_vqa": {
+      "status": "not_run",
+      "reason": "protocol/checkpoints/registry are not locked"
+    },
+    "I_statistics_winner_lock": {
+      "status": "not_run",
+      "reason": "required 298-row full artifacts do not exist"
+    }
   },
-  "preflight": {
-    "unit_tests": "12/12 PASS",
-    "gpu": "NVIDIA GeForce RTX 3090",
-    "baseline_gate": "L32-F1 / 298 rows PASS"
+  "baseline": {
+    "status": "pass",
+    "winner": "L32-F1",
+    "validation_rows": 298,
+    "validation_groups": 110,
+    "validation_ids_sha256": "dbfa2d337f56bd681df70206fa8cee83d743c6743a3493619083d03b804145c5",
+    "winner_predictions_sha256": "d4b3862681cd867be9aac4c5f9cf268cfae1bdb38a20b6543ace0fa97c7429f6"
   },
-  "annotation_input": {
-    "path": "outputs/phase06a/question_taxonomy/taxonomy_annotation_blind.csv",
-    "data_rows": 298,
-    "sha256": "27dbce23f95fec7d2869dba2aa68bc4d0a51d0c8017efe73eac22ec527fd13d7",
-    "blind_to_model_predictions": true
-  },
-  "required_next_files": [
+  "required_human_authored_files_now": [
     "outputs/phase06a/question_taxonomy/annotator_1.csv",
     "outputs/phase06a/question_taxonomy/annotator_2.csv",
     "outputs/phase06a/question_taxonomy/taxonomy_adjudicated.csv",
+    "outputs/phase06a/question_taxonomy/taxonomy_human_provenance.json",
+    "data/phase06b/train_temporal_support.csv"
+  ],
+  "generated_after_valid_human_inputs": [
     "outputs/phase06a/question_taxonomy/taxonomy_frozen.csv",
-    "outputs/phase06a/question_taxonomy/taxonomy_manifest.json"
+    "outputs/phase06a/question_taxonomy/taxonomy_manifest.json",
+    "outputs/phase06b/taxonomy_slice_analysis/novelty_track_evidence.json"
   ],
-  "not_run": [
-    "Phase06B_01",
-    "Phase06B_02",
-    "Phase06B_03",
-    "Phase06B_04"
+  "required_human_decision_after_stage00": "outputs/phase06b/novelty_protocol/novelty_track_decision.json",
+  "other_locked_inputs_needed_for_tatg": [
+    "outputs/phase06b/temporal_inputs/temporal_input_manifest.json",
+    "traffic extractor manifest embedded in temporal input manifest",
+    "smoke/full feature-bank manifests"
   ],
-  "not_run_reason": "Human taxonomy is a hard prerequisite; labels must not be synthesized.",
-  "public_test_accessed": false
+  "public_test_accessed": false,
+  "submission_created": false,
+  "scientific_claim_from_smoke": false,
+  "resume": [
+    "Run notebooks/Phase06A_01_Question_Taxonomy_Freeze.ipynb after annotator files are present; use its adjudication_required.csv.",
+    "After human adjudication/provenance, rerun Phase06A_01, then run Phase06B_00_Taxonomy_Slice_Analysis.ipynb.",
+    "Create the human novelty decision from the Phase06B_01 template and run Phase06B_01_Novelty_Track_Decision_Lock.ipynb.",
+    "For a TATG decision, run Phase06B_03_Temporal_Grounding_Preflight.ipynb then Phase06B_03A through 03E in protocol order."
+  ]
 }

@@ -84,6 +84,14 @@ Sau khi nhận đủ hai file độc lập, pipeline sẽ:
 
 Người adjudicate không thay đổi dòng đã đồng thuận nếu không có lý do được ghi lại. Quyết định adjudication cần có tên người thực hiện, ngày thực hiện và ghi chú khi cần.
 
+### Hard gate độ đồng thuận
+
+- Cohen's kappa được tính riêng cho bốn trục nhị phân và `primary_label`.
+- Mỗi target phải đạt `kappa >= 0.70`; báo cáo kèm raw percent agreement và prevalence.
+- Nếu bất kỳ target nào dưới ngưỡng, trạng thái là `awaiting_reannotation`; không adjudicate/freeze chỉ vì file adjudication tồn tại.
+- Ngoại lệ chỉ hợp lệ khi có `agreement_exception.json` do người có thẩm quyền ký, ghi rõ tên, thời điểm và rationale.
+- `taxonomy_human_provenance.json` phải ghi tên/thời điểm hoàn tất của hai annotator và adjudicator.
+
 ## 7. Checklist bàn giao
 
 - [ ] Có đúng 298 dòng dữ liệu và 298 `sample_id` duy nhất.

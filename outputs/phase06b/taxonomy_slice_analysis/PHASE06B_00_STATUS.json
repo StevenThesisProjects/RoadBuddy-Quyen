@@ -1,5 +1,6 @@
 {
   "status": "awaiting_annotation",
+  "schema_version": 2,
   "missing": [
     "outputs/phase06a/question_taxonomy/taxonomy_frozen.csv",
     "outputs/phase06a/question_taxonomy/taxonomy_manifest.json"

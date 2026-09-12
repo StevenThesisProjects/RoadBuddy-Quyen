@@ -1,0 +1,15 @@
+{
+  "required_columns": [
+    "sample_id",
+    "group_id",
+    "video_sha256",
+    "support_start_sec",
+    "support_end_sec",
+    "annotation_source",
+    "annotator",
+    "adjudication_status",
+    "split"
+  ],
+  "required_split": "train",
+  "note": "Human-authored intervals only"
+}
