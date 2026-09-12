@@ -1,0 +1,3 @@
+run_id,num_frames,sample_count,normalized_choice_accuracy,empty_output_rate,comparison_note
+phase1_f1_baseline,1,319,0.3385579937304075,0.0,Informational only in DEBUG_MODE; run full validation for final claim.
+phase2_f3_uniform_v1,3,64,0.125,0.0,Informational only in DEBUG_MODE; run full validation for final claim.

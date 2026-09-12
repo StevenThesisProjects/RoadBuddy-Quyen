@@ -1,0 +1,7 @@
+{
+  "phase": "06A.00",
+  "run_scope": "smoke",
+  "status": "smoke_complete",
+  "hard_gates_passed": false,
+  "validation_ids_sha256": "dbfa2d337f56bd681df70206fa8cee83d743c6743a3493619083d03b804145c5"
+}

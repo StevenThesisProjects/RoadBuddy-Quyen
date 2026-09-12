@@ -1,0 +1,2 @@
+rank,alpha,locked_step,accuracy,macro_f1,parse_rate,trainable_parameters,peak_vram_gib,reused_phase06a_04,inference_duration_seconds,training_duration_seconds
+8,16,1,0.75,0.7166666666666667,1.0,1081344,11.784070014953613,False,17.17704478651285,17.091106813400984

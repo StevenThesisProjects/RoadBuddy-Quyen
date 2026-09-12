@@ -1,0 +1,406 @@
+id,answer
+testa_0001,A. Đường thẳng
+testa_0002,A. Đúng
+testa_0003,A. Có
+testa_0004,A. Có
+testa_0005,A. Xe tải
+testa_0006,A. Có
+testa_0007,"A. Biển báo cấm, biển báo giới hạn, biển báo cảnh báo"
+testa_0008,"A. Đi thẳng, đi ngược chiều"
+testa_0009,"A. Đi thẳng, đi ngược chiều"
+testa_0010,A. Có
+testa_0011,A. Đi thẳng
+testa_0012,A. Đi thẳng
+testa_0013,"A. Giao thông đi thẳng, đi ngược chiều"
+testa_0014,A. Đúng
+testa_0015,"A. Biển báo cấm, biển báo giới hạn, biển báo chỉ dẫn"
+testa_0016,A. Có
+testa_0017,A. Biển báo cấm đi ngược chiều
+testa_0018,A. Đúng
+testa_0019,A. Biển báo cấm đi ngược chiều
+testa_0020,A. Biển báo cấm đi thẳng và biển báo cấm đi ngược chiều
+testa_0021,A. Biển báo cấm
+testa_0022,B. Xe tải
+testa_0023,B. Sai
+testa_0024,A. Biển báo cấm dừng đỗ
+testa_0025,B. Không
+testa_0026,A. Đúng
+testa_0027,B. 2
+testa_0028,B. Cấm đi ngược chiều
+testa_0029,A. Biển báo cấm dừng đỗ
+testa_0030,A. Đi thẳng
+testa_0031,A. Đúng
+testa_0032,A. Biển báo cấm xe đi ngược chiều
+testa_0033,A. Ô tô
+testa_0034,A. Đúng
+testa_0035,"B. Biển báo cấm, biển báo giới hạn tốc độ, biển báo cấm đỗ xe"
+testa_0036,A. Đường cao tốc
+testa_0037,B. Không
+testa_0038,B. Biển báo cấm đi ngược chiều
+testa_0039,A. Có nguy cơ va chạm với xe máy
+testa_0040,B. Biển báo cấm xe đỗ
+testa_0041,A. Đúng
+testa_0042,B. Không
+testa_0043,A. Biển cấm dừng đỗ
+testa_0044,B. 2
+testa_0045,B. Không
+testa_0046,B. 3
+testa_0047,A. Đúng
+testa_0048,A. Vạch kẻ ngang
+testa_0049,A. Biển báo cấm dừng đỗ
+testa_0050,A. Có
+testa_0051,A. Đúng
+testa_0052,B. 3
+testa_0053,A. Biển cấm dừng đỗ
+testa_0054,B. Không
+testa_0055,B. Biển báo cấm
+testa_0056,B. Biển báo cấm đi thẳng
+testa_0057,A. 60 km/h
+testa_0058,B. Không
+testa_0059,B. Biển báo cấm
+testa_0060,B. Biển báo cấm
+testa_0061,B. Đúng
+testa_0062,B. Không
+testa_0063,B. 2
+testa_0064,A. Đúng
+testa_0065,"A. Biển báo cấm, biển báo giới hạn, biển báo cảnh báo"
+testa_0066,A. 100 km/h
+testa_0067,"A. Đang bị tắc đường, có thể là do tắc đường, tắc đường, tắc đường"
+testa_0068,B. Không
+testa_0069,B. Không
+testa_0070,"A. Biển báo cấm, biển báo giới hạn, biển báo cảnh báo"
+testa_0071,A. Không có biển báo
+testa_0072,B. Cấm đi ngược chiều
+testa_0073,A. 60 km/h
+testa_0074,A. Đúng
+testa_0075,A. Biển báo cấm đi ngược chiều
+testa_0076,A. Có
+testa_0077,A. Đi đến một điểm nào đó
+testa_0078,B. Không
+testa_0079,A. Có
+testa_0080,A. Cấm dừng đỗ
+testa_0081,B. Không
+testa_0082,B. Cấm đi ngược chiều
+testa_0083,"A. Biển cảnh báo, biển báo, biển chỉ dẫn, biển báo cấm, biển báo giới hạn"
+testa_0084,"B. Đối tượng rẽ trái, đối tượng rẽ phải"
+testa_0085,A. Có
+testa_0086,A. Biển báo cấm dừng đỗ
+testa_0087,A. Biển báo cấm dừng đỗ
+testa_0088,A. Có
+testa_0089,A. Có
+testa_0090,A. Biển báo cấm dừng đỗ
+testa_0091,B. 60 km/h
+testa_0092,B. Không
+testa_0093,"A. Cấm dừng đỗ, cấm đỗ, cấm đi ngược chiều"
+testa_0094,A. Có
+testa_0095,A. Biển báo cấm dừng đỗ
+testa_0096,A. Đi thẳng
+testa_0097,B. Không
+testa_0098,A. Xe tải
+testa_0099,A. 1
+testa_0100,B. Không
+testa_0101,A. Đúng
+testa_0102,B. 60 km/h
+testa_0103,A. Xe tải
+testa_0104,B. Không
+testa_0105,B. Biển cấm đi thẳng
+testa_0106,B. Không
+testa_0107,B. 3
+testa_0108,B. Sai
+testa_0109,"A. Biển báo cấm, biển báo cảnh báo, biển báo chỉ dẫn"
+testa_0110,A. Đúng
+testa_0111,B. 100 km/h
+testa_0112,B. Không
+testa_0113,"A. Biển báo giới hạn tốc độ 30km/h, biển báo cấm đỗ xe, biển báo giới hạn chiều cao 3"
+testa_0114,A. Cấm đi ngược chiều
+testa_0115,A. Đúng
+testa_0116,A. Có
+testa_0117,B. Cấm đi ngược chiều
+testa_0118,A. Đúng
+testa_0119,A. Cấm xe chạy vào bên trái
+testa_0120,A. Đúng
+testa_0121,B. Không
+testa_0122,A. Cấm đi ngược chiều
+testa_0123,A. Đúng
+testa_0124,A. 1
+testa_0125,A. Chỉ dẫn xe chạy thẳng
+testa_0126,A. Đúng
+testa_0127,A. Cấm xe đi ngược chiều
+testa_0128,A. Không đúng
+testa_0129,A. Có
+testa_0130,A. 50 km/h
+testa_0131,A. Đứng yên
+testa_0132,A. Đi thẳng
+testa_0133,B. Không
+testa_0134,A. Đứng yên và chờ xe bus đi qua
+testa_0135,B. Không
+testa_0136,B. Không
+testa_0137,B. Được phép đi thẳng
+testa_0138,"B. Biển cấm, biển chỉ dẫn, biển cảnh báo"
+testa_0139,B. Không
+testa_0140,"A. Điểm 1, 2, 3, 4, 5, 6, 7, 8, 9, 1"
+testa_0141,A. Đi thẳng
+testa_0142,A. 150m
+testa_0143,A. Có
+testa_0144,"A. Biển báo cấm, biển báo chỉ dẫn, biển báo cảnh báo"
+testa_0145,A. Có
+testa_0146,A. Đường kẻ ngang
+testa_0147,A. Được phép
+testa_0148,A. Có
+testa_0149,B. Không
+testa_0150,A. Có
+testa_0151,A. Biển báo cấm dừng đỗ
+testa_0152,A. Có
+testa_0153,"A. Biển cấm đi thẳng, biển cấm đỗ, biển chỉ dẫn"
+testa_0154,A. Biển báo cấm đi ngược chiều
+testa_0155,A. Có
+testa_0156,A. Có
+testa_0157,A. Có
+testa_0158,A. Đường dành cho xe ô tô
+testa_0159,A. Đúng
+testa_0160,A. Biển báo cấm dừng đỗ
+testa_0161,A. Xe máy và ô tô
+testa_0162,B. Không
+testa_0163,B. Không
+testa_0164,A. Biển báo cấm đi ngược chiều
+testa_0165,"A. Biển báo cấm, biển báo giới hạn tốc độ, biển báo cấm đỗ, biển báo cấm dừng đỗ"
+testa_0166,A. Biển báo cấm dừng đỗ
+testa_0167,A. Có
+testa_0168,"A. Biển báo cấm đỗ, biển báo cấm đi ngược chiều"
+testa_0169,A. Biển báo cấm đi thẳng
+testa_0170,A. Đúng
+testa_0171,A. Xe máy
+testa_0172,A. Có
+testa_0173,A. Biển báo cấm đi ngược chiều
+testa_0174,A. Đúng
+testa_0175,"A. Biển báo cấm dừng đỗ, biển báo cấm đỗ, biển báo cấm đỗ, biển báo cấm đỗ,"
+testa_0176,A. Cấm dừng đỗ
+testa_0177,A. Có
+testa_0178,A. Biển cảnh báo xe bị đe dọa
+testa_0179,A. Có
+testa_0180,A. Đúng
+testa_0181,"B. Biển báo cấm, biển báo giới hạn, biển báo dừng, biển báo giảm tốc độ"
+testa_0182,B. Không
+testa_0183,A. Có
+testa_0184,A. Có
+testa_0185,A. Đi thẳng qua đoạn đường này
+testa_0186,A. Đi thẳng
+testa_0187,B. Không
+testa_0188,A. Có
+testa_0189,A. Biển báo cấm đi ngược chiều
+testa_0190,A. Hợp lệ
+testa_0191,A. Không có
+testa_0192,A. Lái xe chậm lại và chờ đèn tín hiệu.
+testa_0193,A. Có
+testa_0194,A. Có
+testa_0195,"B. Đứng yên, chờ đèn tín hiệu"
+testa_0196,"A. Biển báo cấm dừng đỗ, biển báo cấm đỗ, biển báo cấm đỗ, biển báo cấm đỗ,"
+testa_0197,A. Có
+testa_0198,A. Đi thẳng
+testa_0199,A. Có
+testa_0200,A. Đang chờ đèn tín hiệu đỏ
+testa_0201,"A. Biển báo cấm, biển báo giới hạn tốc độ, biển báo cấm đỗ"
+testa_0202,A. Có
+testa_0203,A. Đứng yên và chờ xe tải dừng lại
+testa_0204,A. Đứng yên và chờ biển báo.
+testa_0205,A. Có
+testa_0206,A. 7 giờ 00 - 9 giờ 00
+testa_0207,A. Có
+testa_0208,A. 10:10
+testa_0209,"A. Biển báo cấm, biển báo giới hạn, biển báo cảnh báo"
+testa_0210,A. Đúng
+testa_0211,A. Biển báo cấm dừng đỗ
+testa_0212,A. 10:20:25
+testa_0213,A. Có
+testa_0214,A. 10m
+testa_0215,A. Biển báo cấm và biển báo giới hạn
+testa_0216,A. Biển báo cấm đi ngược chiều
+testa_0217,A. Có
+testa_0218,A. 10 phút
+testa_0219,A. Có
+testa_0220,"A. Ô tô, xe máy, xe đạp"
+testa_0221,A. 10m
+testa_0222,"A. Biển báo cấm dừng đỗ, biển báo cấm đỗ, biển báo cấm đi ngược chiều"
+testa_0223,A. Có
+testa_0224,A. Biển báo cấm đi ngược chiều
+testa_0225,B. Biển báo cấm đi thẳng
+testa_0226,B. Không
+testa_0227,A. Biển báo cấm đi ngược chiều
+testa_0228,A. Biển báo cấm đi ngược chiều
+testa_0229,A. Có
+testa_0230,A. 10:00 - 10:30
+testa_0231,A. Đúng
+testa_0232,A. Biển báo cấm đi ngược chiều
+testa_0233,A. Đúng
+testa_0234,B. Biển báo cấm đi ngược chiều
+testa_0235,A. Biển báo cấm dừng đỗ
+testa_0236,B. 7 giờ 00 - 17 giờ 00
+testa_0237,A. 10:00 - 11:00
+testa_0238,A. Đúng
+testa_0239,"A. Biển cấm dừng đỗ, biển cấm đỗ xe, biển cấm đỗ xe"
+testa_0240,B. Biển cấm đi ngược chiều
+testa_0241,B. Không
+testa_0242,A. 7 giờ sáng - 11 giờ tối
+testa_0243,"A. Biển cấm, biển chỉ dẫn, biển cảnh báo"
+testa_0244,B. Không
+testa_0245,B. Không
+testa_0246,B. 1.5 mét
+testa_0247,"B. Cấm đỗ xe, cấm đỗ xe, cấm đỗ xe, cấm đỗ xe, cấm đỗ xe,"
+testa_0248,B. Biển báo cấm và biển báo chỉ dẫn
+testa_0249,B. 1.8 m
+testa_0250,B. Không
+testa_0251,B. Không
+testa_0252,B. Biển cảnh báo về đoạn đường có nguy hiểm
+testa_0253,"A. Biển báo cấm, biển báo giới hạn tốc độ, biển báo cấm đỗ"
+testa_0254,B. Sai
+testa_0255,A. Biển báo cấm đi ngược chiều
+testa_0256,A. 10 giờ sáng - 10 giờ tối
+testa_0257,B. Sai
+testa_0258,"A. Biển báo cấm, biển báo chỉ dẫn, biển báo cảnh báo"
+testa_0259,B. 3
+testa_0260,B. Sai
+testa_0261,B. 2
+testa_0262,A. 7 giờ 00 - 9 giờ 00
+testa_0263,A. Đúng
+testa_0264,A. Chỉ dẫn hướng đi
+testa_0265,A. Xe máy
+testa_0266,A. Đúng
+testa_0267,A. Biển báo cấm đi ngược chiều
+testa_0268,A. Có
+testa_0269,A. Đúng
+testa_0270,A. 1.8 m
+testa_0271,"A. Biển cấm dừng đỗ, biển cấm đỗ xe, biển cấm đỗ xe"
+testa_0272,A. 2
+testa_0273,A. Có
+testa_0274,A. Vạch kẻ gãy khúc
+testa_0275,B. Không
+testa_0276,B. 3
+testa_0277,A. Cấm đi ngược chiều
+testa_0278,A. Có
+testa_0279,"A. Biển cấm, biển chỉ dẫn, biển cảnh báo"
+testa_0280,A. Biển cấm dừng đỗ
+testa_0281,B. Đúng
+testa_0282,B. 1.8 m
+testa_0283,"A. Biển báo cấm, biển báo giới hạn tốc độ, biển báo cấm đỗ, biển báo cấm đỗ xe"
+testa_0284,B. Sai
+testa_0285,B. Sai
+testa_0286,"A. Biển báo cấm, biển báo giới hạn tốc độ, biển báo cấm đỗ, biển báo cấm đỗ xe"
+testa_0287,A. 1.5 m
+testa_0288,"A. Biển báo cấm dừng đỗ, biển báo cấm đi ngược chiều, biển báo cấm đi thẳng, biển báo cấm đỗ"
+testa_0289,A. Biển báo cấm đi thẳng
+testa_0290,A. Có
+testa_0291,A. Biển báo giới hạn tốc độ
+testa_0292,B. 30 km/h
+testa_0293,B. 3
+testa_0294,A. Biển cấm dừng đỗ
+testa_0295,B. 3
+testa_0296,A. Biển cấm dừng đỗ
+testa_0297,A. Biển báo cấm đi ngược chiều
+testa_0298,A. Biển báo cấm đi ngược chiều
+testa_0299,A. Biển cấm dừng đỗ
+testa_0300,A. Biển cảnh báo xe bị đe dọa
+testa_0301,A. Đi thẳng
+testa_0302,A. Biển cảnh báo xe tải bị đe dọa
+testa_0303,B. 3
+testa_0304,A. Biển cấm dừng đỗ
+testa_0305,"A. Biển báo cấm, biển báo giới hạn tốc độ, biển báo cấm đỗ"
+testa_0306,A. Biển báo cấm đi thẳng
+testa_0307,B. 3
+testa_0308,A. Biển báo cấm đi thẳng
+testa_0309,A. Biển cấm dừng đỗ
+testa_0310,B. 2 biển
+testa_0311,B. 14 km
+testa_0312,B. Di chuyển theo hướng thẳng
+testa_0313,"B. Biển cấm dừng đỗ, biển cấm đỗ xe, biển cấm đi thẳng"
+testa_0314,B. Biển cấm dừng đỗ
+testa_0315,A. Biển báo cấm dừng đỗ
+testa_0316,A. Xe tải
+testa_0317,B. 10 km
+testa_0318,B. Đi thẳng
+testa_0319,"A. Biển báo cấm, biển báo giới hạn tốc độ, biển báo cấm đỗ xe"
+testa_0320,A. Biển báo cấm dừng đỗ
+testa_0321,A. 1.8 m
+testa_0322,A. Đường đi thẳng
+testa_0323,"A. Xe, ô tô, xe máy, xe đạp"
+testa_0324,B. Đường đi thẳng
+testa_0325,B. 2 phương tiện
+testa_0326,B. Biển chỉ dẫn
+testa_0327,"A. Xe tải, xe buýt, xe máy, xe đạp"
+testa_0328,A. Biển báo cấm dừng đỗ
+testa_0329,B. 3
+testa_0330,"A. Xe tải, xe máy, xe đạp"
+testa_0331,B. 60 km/h
+testa_0332,B. 2 biển
+testa_0333,B. Biển cấm
+testa_0334,A. Biển báo cấm đi thẳng và biển báo cấm đỗ
+testa_0335,"A. Biển báo cấm, biển báo giới hạn, biển báo cảnh báo"
+testa_0336,A. Biển báo cấm
+testa_0337,"A. Biển báo cấm, biển báo giới hạn, biển báo cảnh báo"
+testa_0338,B. 3
+testa_0339,A. Xe máy
+testa_0340,"A. Biển báo cấm, biển báo giới hạn, biển báo cảnh báo"
+testa_0341,"A. Biển chỉ dẫn, biển cấm, biển cảnh báo, biển báo hiệu"
+testa_0342,A. 100m
+testa_0343,A. Đường đi thẳng
+testa_0344,A. Ô tô
+testa_0345,A. 10 km
+testa_0346,B. 3 biển
+testa_0347,"A. Biển báo cấm, biển báo giới hạn, biển báo cảnh báo"
+testa_0348,"A. Hướng đi thẳng, hướng sang phải, hướng đi ngược chiều"
+testa_0349,B. 3
+testa_0350,A. Đi thẳng
+testa_0351,B. 1.8 m
+testa_0352,B. Biển cấm dừng đỗ
+testa_0353,A. Biển cấm đi thẳng và biển cấm đỗ
+testa_0354,A. Biển cấm đi thẳng
+testa_0355,A. Biển cấm dừng đỗ
+testa_0356,"A. Biển báo cấm, biển báo giới hạn tốc độ, biển báo cấm đỗ"
+testa_0357,A. Biển báo cấm đi ngược chiều
+testa_0358,"A. Biển báo cấm, biển báo giới hạn, biển báo cảnh báo"
+testa_0359,B. Biển cấm dừng đỗ
+testa_0360,"B. Biển cảnh báo, biển báo, biển cấm"
+testa_0361,A. Biển báo cấm đi ngược chiều
+testa_0362,B. 2
+testa_0363,"A. Biển báo cấm, biển báo giới hạn tốc độ, biển báo cấm đỗ, biển báo cấm đỗ xe"
+testa_0364,B. Biển báo cấm đỗ
+testa_0365,A. Biển báo cấm đi ngược chiều
+testa_0366,A. 10:00 - 11:00
+testa_0367,A. V/v tốc độ tối đa và v/v tốc độ tối thiểu
+testa_0368,"A. Biển báo cấm, biển báo giới hạn, biển báo cảnh báo"
+testa_0369,B. 3
+testa_0370,A. Biển cấm dừng đỗ
+testa_0371,A. Biển báo cấm đi ngược chiều
+testa_0372,A. Biển báo cấm đi ngược chiều
+testa_0373,A. Biển báo cấm đi ngược chiều
+testa_0374,"A. Cấm dừng đỗ, cấm đỗ xe, cấm đỗ xe"
+testa_0375,B. 2
+testa_0376,A. Biển cấm dừng đỗ
+testa_0377,B. 2 biển
+testa_0378,B. 2
+testa_0379,A. Biển cấm dừng đỗ
+testa_0380,B. Đi thẳng
+testa_0381,B. 3 phương tiện
+testa_0382,A. Biển cấm đi ngược chiều
+testa_0383,B. 2
+testa_0384,"A. Cấm dừng đỗ, cấm đỗ xe, cấm đỗ xe"
+testa_0385,A. 2 làn
+testa_0386,A. Cấm đi ngược chiều
+testa_0387,A. Biển cấm dừng đỗ
+testa_0388,A. Xe máy
+testa_0389,A. Biển cấm dừng đỗ
+testa_0390,A. Biển cảnh báo
+testa_0391,A. Biển cảnh báo về đoạn đường có nguy hiểm
+testa_0392,B. Đi thẳng
+testa_0393,A. Đường thẳng
+testa_0394,A. Biển cấm dừng đỗ
+testa_0395,A. 2
+testa_0396,B. Biển báo cấm đi ngược chiều
+testa_0397,B. 2
+testa_0398,"A. Cấm dừng đỗ, cấm đỗ xe, cấm đỗ xe"
+testa_0399,B. 2
+testa_0400,B. 2
+testa_0401,A. Biển báo cấm dừng đỗ và biển báo cấm đỗ xe
+testa_0402,B. 2
+testa_0403,A. Thời gian ghi của biển báo.
+testa_0404,"A. Biển báo cấm, biển báo giới hạn"
+testa_0405,"A. Cấm xe tải, xe máy, xe ô tô chở hàng hóa, xe ô tô chở hàng hóa, xe ô tô chở hàng"

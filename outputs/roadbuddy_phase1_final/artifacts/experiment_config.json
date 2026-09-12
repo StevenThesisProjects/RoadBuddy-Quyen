@@ -1,0 +1,20 @@
+{
+  "model_name": "5CD-AI/Vintern-1B-v3_5",
+  "tokenizer_name": "5CD-AI/Vintern-1B-v3_5",
+  "seed": 42,
+  "input_size": 448,
+  "max_length": 1536,
+  "max_new_tokens": 32,
+  "num_frames": 1,
+  "model_dtype": "torch.float16",
+  "use_flash_attention": false,
+  "use_lora": true,
+  "learning_rate": 0.0001,
+  "epochs": 1,
+  "per_device_train_batch_size": 1,
+  "gradient_accumulation_steps": 8,
+  "gradient_checkpointing": false,
+  "train_samples": 1171,
+  "validation_samples": 319,
+  "test_samples": 405
+}

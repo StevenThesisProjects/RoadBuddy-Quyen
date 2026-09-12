@@ -1,0 +1,11 @@
+{
+  "phase": "04",
+  "status": "debug_complete",
+  "run_name": "debug20",
+  "experiments": 9,
+  "question_types": 1,
+  "validation_rows": 20,
+  "small_slice_threshold": 20,
+  "model_revision": "b98f263eab246eb5269ade64edbdca8a887dc44d",
+  "seed": 42
+}

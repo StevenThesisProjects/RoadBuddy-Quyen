@@ -1,0 +1,161 @@
+sample_id,answer,question_type,baseline_correct,correct,prediction,raw_response,experiment,transition
+train_0006,B,unknown,True,True,B,B,phase01_lora_r16_F1,unchanged
+train_0040,B,unknown,True,True,B,B,phase01_lora_r16_F1,unchanged
+train_0041,B,unknown,True,True,B,B,phase01_lora_r16_F1,unchanged
+train_0042,D,unknown,False,False,B,B,phase01_lora_r16_F1,unchanged
+train_0043,B,unknown,True,True,B,B,phase01_lora_r16_F1,unchanged
+train_0044,D,unknown,True,True,D,D,phase01_lora_r16_F1,unchanged
+train_0050,A,unknown,False,False,B,B,phase01_lora_r16_F1,unchanged
+train_0051,B,unknown,False,False,A,A,phase01_lora_r16_F1,unchanged
+train_0058,C,unknown,False,False,B,B,phase01_lora_r16_F1,unchanged
+train_0059,B,unknown,True,True,B,B,phase01_lora_r16_F1,unchanged
+train_0060,B,unknown,False,False,A,A,phase01_lora_r16_F1,unchanged
+train_0061,B,unknown,True,True,B,B,phase01_lora_r16_F1,unchanged
+train_0062,B,unknown,True,False,A,A,phase01_lora_r16_F1,right_to_wrong
+train_0063,C,unknown,True,True,C,C,phase01_lora_r16_F1,unchanged
+train_0070,A,unknown,True,True,A,A,phase01_lora_r16_F1,unchanged
+train_0071,B,unknown,False,False,A,A,phase01_lora_r16_F1,unchanged
+train_0078,D,unknown,True,True,D,D,phase01_lora_r16_F1,unchanged
+train_0079,B,unknown,True,True,B,B,phase01_lora_r16_F1,unchanged
+train_0088,A,unknown,True,True,A,A,phase01_lora_r16_F1,unchanged
+train_0089,D,unknown,False,False,C,C,phase01_lora_r16_F1,unchanged
+train_0006,B,unknown,True,True,B,B,phase02_lora_r16_F1,unchanged
+train_0040,B,unknown,True,True,B,B,phase02_lora_r16_F1,unchanged
+train_0041,B,unknown,True,True,B,B,phase02_lora_r16_F1,unchanged
+train_0042,D,unknown,False,False,B,B,phase02_lora_r16_F1,unchanged
+train_0043,B,unknown,True,True,B,B,phase02_lora_r16_F1,unchanged
+train_0044,D,unknown,True,True,D,D,phase02_lora_r16_F1,unchanged
+train_0050,A,unknown,False,True,A,A,phase02_lora_r16_F1,wrong_to_right
+train_0051,B,unknown,False,False,A,A,phase02_lora_r16_F1,unchanged
+train_0058,C,unknown,False,False,B,B,phase02_lora_r16_F1,unchanged
+train_0059,B,unknown,True,False,A,A,phase02_lora_r16_F1,right_to_wrong
+train_0060,B,unknown,False,False,A,A,phase02_lora_r16_F1,unchanged
+train_0061,B,unknown,True,True,B,B,phase02_lora_r16_F1,unchanged
+train_0062,B,unknown,True,True,B,B,phase02_lora_r16_F1,unchanged
+train_0063,C,unknown,True,True,C,C,phase02_lora_r16_F1,unchanged
+train_0070,A,unknown,True,True,A,A,phase02_lora_r16_F1,unchanged
+train_0071,B,unknown,False,False,A,A,phase02_lora_r16_F1,unchanged
+train_0078,D,unknown,True,True,D,D,phase02_lora_r16_F1,unchanged
+train_0079,B,unknown,True,False,A,A,phase02_lora_r16_F1,right_to_wrong
+train_0088,A,unknown,True,True,A,A,phase02_lora_r16_F1,unchanged
+train_0089,D,unknown,False,False,A,A,phase02_lora_r16_F1,unchanged
+train_0006,B,unknown,True,True,B,B,phase02_lora_r16_F3,unchanged
+train_0040,B,unknown,True,True,B,B,phase02_lora_r16_F3,unchanged
+train_0041,B,unknown,True,True,B,B,phase02_lora_r16_F3,unchanged
+train_0042,D,unknown,False,False,B,B,phase02_lora_r16_F3,unchanged
+train_0043,B,unknown,True,True,B,B,phase02_lora_r16_F3,unchanged
+train_0044,D,unknown,True,True,D,D,phase02_lora_r16_F3,unchanged
+train_0050,A,unknown,False,False,B,B,phase02_lora_r16_F3,unchanged
+train_0051,B,unknown,False,False,A,A,phase02_lora_r16_F3,unchanged
+train_0058,C,unknown,False,False,B,B,phase02_lora_r16_F3,unchanged
+train_0059,B,unknown,True,True,B,B,phase02_lora_r16_F3,unchanged
+train_0060,B,unknown,False,False,A,A,phase02_lora_r16_F3,unchanged
+train_0061,B,unknown,True,True,B,B,phase02_lora_r16_F3,unchanged
+train_0062,B,unknown,True,False,A,A,phase02_lora_r16_F3,right_to_wrong
+train_0063,C,unknown,True,True,C,C,phase02_lora_r16_F3,unchanged
+train_0070,A,unknown,True,True,A,A,phase02_lora_r16_F3,unchanged
+train_0071,B,unknown,False,False,A,A,phase02_lora_r16_F3,unchanged
+train_0078,D,unknown,True,True,D,D,phase02_lora_r16_F3,unchanged
+train_0079,B,unknown,True,True,B,B,phase02_lora_r16_F3,unchanged
+train_0088,A,unknown,True,True,A,A,phase02_lora_r16_F3,unchanged
+train_0089,D,unknown,False,False,B,B,phase02_lora_r16_F3,unchanged
+train_0006,B,unknown,True,True,B,B,phase02_lora_r16_F8,unchanged
+train_0040,B,unknown,True,True,B,B,phase02_lora_r16_F8,unchanged
+train_0041,B,unknown,True,True,B,B,phase02_lora_r16_F8,unchanged
+train_0042,D,unknown,False,False,B,B,phase02_lora_r16_F8,unchanged
+train_0043,B,unknown,True,True,B,B,phase02_lora_r16_F8,unchanged
+train_0044,D,unknown,True,True,D,D,phase02_lora_r16_F8,unchanged
+train_0050,A,unknown,False,False,B,B,phase02_lora_r16_F8,unchanged
+train_0051,B,unknown,False,False,A,A,phase02_lora_r16_F8,unchanged
+train_0058,C,unknown,False,False,B,B,phase02_lora_r16_F8,unchanged
+train_0059,B,unknown,True,True,B,B,phase02_lora_r16_F8,unchanged
+train_0060,B,unknown,False,False,A,A,phase02_lora_r16_F8,unchanged
+train_0061,B,unknown,True,True,B,B,phase02_lora_r16_F8,unchanged
+train_0062,B,unknown,True,False,A,A,phase02_lora_r16_F8,right_to_wrong
+train_0063,C,unknown,True,True,C,C,phase02_lora_r16_F8,unchanged
+train_0070,A,unknown,True,True,A,A,phase02_lora_r16_F8,unchanged
+train_0071,B,unknown,False,False,A,A,phase02_lora_r16_F8,unchanged
+train_0078,D,unknown,True,True,D,D,phase02_lora_r16_F8,unchanged
+train_0079,B,unknown,True,True,B,B,phase02_lora_r16_F8,unchanged
+train_0088,A,unknown,True,True,A,A,phase02_lora_r16_F8,unchanged
+train_0089,D,unknown,False,False,B,B,phase02_lora_r16_F8,unchanged
+train_0006,B,unknown,True,True,B,B,phase02_zero_shot_F1,unchanged
+train_0040,B,unknown,True,True,B,B,phase02_zero_shot_F1,unchanged
+train_0041,B,unknown,True,True,B,B,phase02_zero_shot_F1,unchanged
+train_0042,D,unknown,False,False,B,B,phase02_zero_shot_F1,unchanged
+train_0043,B,unknown,True,True,B,B,phase02_zero_shot_F1,unchanged
+train_0044,D,unknown,True,True,D,D,phase02_zero_shot_F1,unchanged
+train_0050,A,unknown,False,False,B,B,phase02_zero_shot_F1,unchanged
+train_0051,B,unknown,False,False,A,A. Có,phase02_zero_shot_F1,unchanged
+train_0058,C,unknown,False,False,B,B,phase02_zero_shot_F1,unchanged
+train_0059,B,unknown,True,True,B,B,phase02_zero_shot_F1,unchanged
+train_0060,B,unknown,False,True,B,B,phase02_zero_shot_F1,wrong_to_right
+train_0061,B,unknown,True,True,B,B,phase02_zero_shot_F1,unchanged
+train_0062,B,unknown,True,True,B,B. Sai,phase02_zero_shot_F1,unchanged
+train_0063,C,unknown,True,True,C,C,phase02_zero_shot_F1,unchanged
+train_0070,A,unknown,True,True,A,A. Cầu Khánh Hội,phase02_zero_shot_F1,unchanged
+train_0071,B,unknown,False,False,A,A. Đúng,phase02_zero_shot_F1,unchanged
+train_0078,D,unknown,True,True,D,D,phase02_zero_shot_F1,unchanged
+train_0079,B,unknown,True,True,B,B. Sai,phase02_zero_shot_F1,unchanged
+train_0088,A,unknown,True,True,A,A,phase02_zero_shot_F1,unchanged
+train_0089,D,unknown,False,False,B,B,phase02_zero_shot_F1,unchanged
+train_0006,B,unknown,True,True,B,B,phase02_zero_shot_F3,unchanged
+train_0040,B,unknown,True,True,B,B,phase02_zero_shot_F3,unchanged
+train_0041,B,unknown,True,True,B,B,phase02_zero_shot_F3,unchanged
+train_0042,D,unknown,False,False,B,B,phase02_zero_shot_F3,unchanged
+train_0043,B,unknown,True,True,B,B,phase02_zero_shot_F3,unchanged
+train_0044,D,unknown,True,True,D,D,phase02_zero_shot_F3,unchanged
+train_0050,A,unknown,False,False,B,B,phase02_zero_shot_F3,unchanged
+train_0051,B,unknown,False,False,A,A. Có,phase02_zero_shot_F3,unchanged
+train_0058,C,unknown,False,False,B,B,phase02_zero_shot_F3,unchanged
+train_0059,B,unknown,True,True,B,B,phase02_zero_shot_F3,unchanged
+train_0060,B,unknown,False,True,B,B. Sai,phase02_zero_shot_F3,wrong_to_right
+train_0061,B,unknown,True,True,B,B,phase02_zero_shot_F3,unchanged
+train_0062,B,unknown,True,True,B,B. Sai,phase02_zero_shot_F3,unchanged
+train_0063,C,unknown,True,True,C,C,phase02_zero_shot_F3,unchanged
+train_0070,A,unknown,True,True,A,A. Cầu Khánh Hội,phase02_zero_shot_F3,unchanged
+train_0071,B,unknown,False,False,A,A. Đúng,phase02_zero_shot_F3,unchanged
+train_0078,D,unknown,True,True,D,D,phase02_zero_shot_F3,unchanged
+train_0079,B,unknown,True,True,B,B. Sai,phase02_zero_shot_F3,unchanged
+train_0088,A,unknown,True,False,B,B,phase02_zero_shot_F3,right_to_wrong
+train_0089,D,unknown,False,False,B,B,phase02_zero_shot_F3,unchanged
+train_0006,B,unknown,True,False,D,D,phase02_zero_shot_F8,right_to_wrong
+train_0040,B,unknown,True,True,B,B. Không,phase02_zero_shot_F8,unchanged
+train_0041,B,unknown,True,True,B,B,phase02_zero_shot_F8,unchanged
+train_0042,D,unknown,False,False,B,B,phase02_zero_shot_F8,unchanged
+train_0043,B,unknown,True,True,B,B,phase02_zero_shot_F8,unchanged
+train_0044,D,unknown,True,True,D,D,phase02_zero_shot_F8,unchanged
+train_0050,A,unknown,False,False,B,B,phase02_zero_shot_F8,unchanged
+train_0051,B,unknown,False,False,A,A. Có,phase02_zero_shot_F8,unchanged
+train_0058,C,unknown,False,False,B,B,phase02_zero_shot_F8,unchanged
+train_0059,B,unknown,True,False,D,D,phase02_zero_shot_F8,right_to_wrong
+train_0060,B,unknown,False,True,B,B. Sai,phase02_zero_shot_F8,wrong_to_right
+train_0061,B,unknown,True,True,B,B,phase02_zero_shot_F8,unchanged
+train_0062,B,unknown,True,True,B,B. Sai,phase02_zero_shot_F8,unchanged
+train_0063,C,unknown,True,True,C,C,phase02_zero_shot_F8,unchanged
+train_0070,A,unknown,True,True,A,A. Cầu Khánh Hội,phase02_zero_shot_F8,unchanged
+train_0071,B,unknown,False,True,B,B. Sai,phase02_zero_shot_F8,wrong_to_right
+train_0078,D,unknown,True,True,D,D,phase02_zero_shot_F8,unchanged
+train_0079,B,unknown,True,False,D,D. nan,phase02_zero_shot_F8,right_to_wrong
+train_0088,A,unknown,True,True,A,A. Dành cho người đi bộ sang ngang,phase02_zero_shot_F8,unchanged
+train_0089,D,unknown,False,False,B,B,phase02_zero_shot_F8,unchanged
+train_0006,B,unknown,True,True,B,B,phase03_r8_F1,unchanged
+train_0040,B,unknown,True,True,B,B,phase03_r8_F1,unchanged
+train_0041,B,unknown,True,True,B,B,phase03_r8_F1,unchanged
+train_0042,D,unknown,False,False,B,B,phase03_r8_F1,unchanged
+train_0043,B,unknown,True,True,B,B,phase03_r8_F1,unchanged
+train_0044,D,unknown,True,True,D,D,phase03_r8_F1,unchanged
+train_0050,A,unknown,False,False,B,B,phase03_r8_F1,unchanged
+train_0051,B,unknown,False,False,A,A,phase03_r8_F1,unchanged
+train_0058,C,unknown,False,False,B,B,phase03_r8_F1,unchanged
+train_0059,B,unknown,True,True,B,B,phase03_r8_F1,unchanged
+train_0060,B,unknown,False,False,A,A,phase03_r8_F1,unchanged
+train_0061,B,unknown,True,True,B,B,phase03_r8_F1,unchanged
+train_0062,B,unknown,True,True,B,B,phase03_r8_F1,unchanged
+train_0063,C,unknown,True,True,C,C,phase03_r8_F1,unchanged
+train_0070,A,unknown,True,True,A,A,phase03_r8_F1,unchanged
+train_0071,B,unknown,False,False,A,A,phase03_r8_F1,unchanged
+train_0078,D,unknown,True,True,D,D,phase03_r8_F1,unchanged
+train_0079,B,unknown,True,True,B,B,phase03_r8_F1,unchanged
+train_0088,A,unknown,True,True,A,A,phase03_r8_F1,unchanged
+train_0089,D,unknown,False,False,C,C,phase03_r8_F1,unchanged

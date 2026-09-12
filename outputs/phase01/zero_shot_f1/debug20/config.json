@@ -1,0 +1,12 @@
+{
+  "model_id": "5CD-AI/Vintern-1B-v3_5",
+  "revision": "b98f263eab246eb5269ade64edbdca8a887dc44d",
+  "seed": 42,
+  "frames": 1,
+  "dynamic_tiles": 6,
+  "thumbnail": true,
+  "template": "Hermes-2",
+  "num_image_token": 256,
+  "flash_attention": false,
+  "limit": 20
+}

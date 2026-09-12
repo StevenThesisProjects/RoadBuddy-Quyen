@@ -1,0 +1,8 @@
+{
+  "phase": "06A.04",
+  "status": "complete",
+  "run_scope": "full",
+  "locked_optimizer_step": 8,
+  "adapter_sha256": "5d302f592e879c2f2dbfe2e6e5fb297eec40ad41f906c79110b5210257d6240c",
+  "final_training_rows": 1192
+}

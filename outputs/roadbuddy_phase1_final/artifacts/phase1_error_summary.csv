@@ -1,0 +1,5 @@
+error_category,count
+visual_recognition,11
+temporal_information_missing,7
+traffic_rule_knowledge,1
+insufficient_frame,1

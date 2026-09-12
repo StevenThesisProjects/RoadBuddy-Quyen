@@ -1,0 +1,16 @@
+{
+  "run_scope": "full",
+  "train_rows": 1192,
+  "validation_rows": 298,
+  "train_groups": 439,
+  "validation_groups": 110,
+  "sample_overlap": 0,
+  "group_overlap": 0,
+  "validation_membership_hash": "14c3f07a5c957d662c3acaf104cd3ac6d232e0d44cea86d6df5fbdf343754be7",
+  "validation_ids_file_sha256": "dbfa2d337f56bd681df70206fa8cee83d743c6743a3493619083d03b804145c5",
+  "raw_labeled_rows": 1490,
+  "decoded_videos": 549,
+  "decode_failures": 0,
+  "exact_duplicate_sets": 0,
+  "near_duplicate_audit": "not_implemented_manual_followup"
+}

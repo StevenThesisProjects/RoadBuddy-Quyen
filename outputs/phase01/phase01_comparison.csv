@@ -1,0 +1,3 @@
+experiment,rows,accuracy,macro_f1,parse_rate
+zero_shot_f1,20,0.65,0.5984848484848485,1.0
+lora_r16_f1,20,0.6,0.5694444444444444,1.0

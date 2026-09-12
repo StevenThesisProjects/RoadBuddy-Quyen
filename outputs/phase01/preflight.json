@@ -1,0 +1,37 @@
+{
+  "python": "/root/venvs/roadbuddy-rtx3090-py310/bin/python",
+  "python_version": "3.10.12",
+  "expected_kernel": true,
+  "gcc": "/usr/bin/gcc",
+  "g++": "/usr/bin/g++",
+  "Python.h": "/usr/include/python3.10/Python.h",
+  "Python.h_exists": true,
+  "torch": "2.13.0+cu126",
+  "cuda_available": true,
+  "cuda_runtime": "12.6",
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "capability": [
+    8,
+    6
+  ],
+  "bf16": true,
+  "packages": {
+    "transformers": "4.57.6",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "torchvision": "0.28.0+cu126",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "opencv-python-headless": "4.10.0.84",
+    "ipykernel": "7.3.0"
+  },
+  "model": {
+    "model_id": "5CD-AI/Vintern-1B-v3_5",
+    "revision": "b98f263eab246eb5269ade64edbdca8a887dc44d",
+    "class": "transformers_modules._5CD_hyphen_AI.Vintern_hyphen_1B_hyphen_v3_5.b98f263eab246eb5269ade64edbdca8a887dc44d.modeling_internvl_chat.InternVLChatModel",
+    "num_image_token": 256,
+    "template": "Hermes-2",
+    "img_context_token_id": 151667,
+    "flash_attention": false
+  }
+}

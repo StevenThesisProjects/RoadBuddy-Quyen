@@ -1,0 +1,2 @@
+rank,lora_alpha,trainable_parameters,optimizer_steps,peak_vram_gib,elapsed_seconds,rows,accuracy,macro_f1,parse_rate
+8,16,1081344,2,14.22864580154419,44.68023654911667,20,0.65,0.5984848484848485,1.0

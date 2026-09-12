@@ -1,0 +1,8 @@
+{
+  "phase": "06A.04",
+  "status": "smoke_complete",
+  "run_scope": "smoke",
+  "locked_optimizer_step": 1,
+  "adapter_sha256": "599ad3cd9b6960e04c88d9b7e0859514be4cd13972b6246cd0629503a2af8f3e",
+  "final_training_rows": 20
+}

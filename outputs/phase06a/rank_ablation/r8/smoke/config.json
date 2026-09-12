@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "seed": 42,
+  "run_scope": "smoke",
+  "attention_implementation": "eager",
+  "dtype": "bfloat16",
+  "total_tile_budget": 8,
+  "use_thumbnail": false,
+  "frame_policy": "equal_temporal_bin_midpoints",
+  "max_new_tokens": 16,
+  "do_sample": false,
+  "num_beams": 1,
+  "primary_metric": "accuracy",
+  "secondary_metric": "macro_f1",
+  "bootstrap_resamples": 10000,
+  "noninferiority_margin": 0.02,
+  "rank": 8,
+  "alpha": 16,
+  "alpha_over_rank": 2.0,
+  "locked_optimizer_step": 1,
+  "adapter_path": "/workspace/RoadBuddy/outputs/phase06a/rank_ablation/r8/smoke/final_adapter",
+  "reused_phase06a_04": false
+}
