@@ -1,0 +1,181 @@
+sample_id,group_id,question_type,answer,prediction,raw_response,correct,num_tiles,experiment,frame_count,num_patches_list
+train_0006,464458b4_386_clip_006_0039_0048_Y,unknown,B,B,B,True,7,phase01_zero_shot_F1,,
+train_0040,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,7,phase01_zero_shot_F1,,
+train_0041,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,7,phase01_zero_shot_F1,,
+train_0042,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,B,B,False,7,phase01_zero_shot_F1,,
+train_0043,a5cb63a2_035_clip_001_0000_0007_Y,unknown,B,B,B,True,7,phase01_zero_shot_F1,,
+train_0044,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,D,D,True,7,phase01_zero_shot_F1,,
+train_0050,23245211_035_clip_008_0051_0060_Y,unknown,A,B,B,False,7,phase01_zero_shot_F1,,
+train_0051,23245211_035_clip_008_0051_0060_Y,unknown,B,A,A. Có,False,7,phase01_zero_shot_F1,,
+train_0058,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,C,B,B,False,7,phase01_zero_shot_F1,,
+train_0059,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,B,B,True,7,phase01_zero_shot_F1,,
+train_0060,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,A,A. Đúng,False,7,phase01_zero_shot_F1,,
+train_0061,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B,True,7,phase01_zero_shot_F1,,
+train_0062,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B. Sai,True,7,phase01_zero_shot_F1,,
+train_0063,8ae769ed_183_clip_008_0050_0060_Y,unknown,C,C,C,True,7,phase01_zero_shot_F1,,
+train_0070,add702c9_063_clip_003_0017_0024_Y,unknown,A,A,A. Cầu Khánh Hội,True,7,phase01_zero_shot_F1,,
+train_0071,add702c9_063_clip_003_0017_0024_Y,unknown,B,A,A. Đúng,False,7,phase01_zero_shot_F1,,
+train_0078,4a8ff810_544_clip_001_0000_0005_Y,unknown,D,D,D,True,7,phase01_zero_shot_F1,,
+train_0079,4a8ff810_544_clip_001_0000_0005_Y,unknown,B,B,B. Sai,True,7,phase01_zero_shot_F1,,
+train_0088,83f02dc7_100_clip_001_0000_0006_N,unknown,A,A,A,True,3,phase01_zero_shot_F1,,
+train_0089,83f02dc7_100_clip_001_0000_0006_N,unknown,D,C,C,False,3,phase01_zero_shot_F1,,
+train_0006,464458b4_386_clip_006_0039_0048_Y,unknown,B,B,B,True,7,phase01_lora_r16_F1,,
+train_0040,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,7,phase01_lora_r16_F1,,
+train_0041,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,7,phase01_lora_r16_F1,,
+train_0042,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,B,B,False,7,phase01_lora_r16_F1,,
+train_0043,a5cb63a2_035_clip_001_0000_0007_Y,unknown,B,B,B,True,7,phase01_lora_r16_F1,,
+train_0044,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,D,D,True,7,phase01_lora_r16_F1,,
+train_0050,23245211_035_clip_008_0051_0060_Y,unknown,A,B,B,False,7,phase01_lora_r16_F1,,
+train_0051,23245211_035_clip_008_0051_0060_Y,unknown,B,A,A,False,7,phase01_lora_r16_F1,,
+train_0058,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,C,B,B,False,7,phase01_lora_r16_F1,,
+train_0059,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,B,B,True,7,phase01_lora_r16_F1,,
+train_0060,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,A,A,False,7,phase01_lora_r16_F1,,
+train_0061,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B,True,7,phase01_lora_r16_F1,,
+train_0062,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,A,A,False,7,phase01_lora_r16_F1,,
+train_0063,8ae769ed_183_clip_008_0050_0060_Y,unknown,C,C,C,True,7,phase01_lora_r16_F1,,
+train_0070,add702c9_063_clip_003_0017_0024_Y,unknown,A,A,A,True,7,phase01_lora_r16_F1,,
+train_0071,add702c9_063_clip_003_0017_0024_Y,unknown,B,A,A,False,7,phase01_lora_r16_F1,,
+train_0078,4a8ff810_544_clip_001_0000_0005_Y,unknown,D,D,D,True,7,phase01_lora_r16_F1,,
+train_0079,4a8ff810_544_clip_001_0000_0005_Y,unknown,B,B,B,True,7,phase01_lora_r16_F1,,
+train_0088,83f02dc7_100_clip_001_0000_0006_N,unknown,A,A,A,True,3,phase01_lora_r16_F1,,
+train_0089,83f02dc7_100_clip_001_0000_0006_N,unknown,D,C,C,False,3,phase01_lora_r16_F1,,
+train_0006,464458b4_386_clip_006_0039_0048_Y,unknown,B,B,B,True,7,phase02_lora_r16_F1,1.0,[7]
+train_0040,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,7,phase02_lora_r16_F1,1.0,[7]
+train_0041,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,7,phase02_lora_r16_F1,1.0,[7]
+train_0042,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,B,B,False,7,phase02_lora_r16_F1,1.0,[7]
+train_0043,a5cb63a2_035_clip_001_0000_0007_Y,unknown,B,B,B,True,7,phase02_lora_r16_F1,1.0,[7]
+train_0044,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,D,D,True,7,phase02_lora_r16_F1,1.0,[7]
+train_0050,23245211_035_clip_008_0051_0060_Y,unknown,A,A,A,True,7,phase02_lora_r16_F1,1.0,[7]
+train_0051,23245211_035_clip_008_0051_0060_Y,unknown,B,A,A,False,7,phase02_lora_r16_F1,1.0,[7]
+train_0058,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,C,B,B,False,7,phase02_lora_r16_F1,1.0,[7]
+train_0059,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,A,A,False,7,phase02_lora_r16_F1,1.0,[7]
+train_0060,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,A,A,False,7,phase02_lora_r16_F1,1.0,[7]
+train_0061,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B,True,7,phase02_lora_r16_F1,1.0,[7]
+train_0062,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B,True,7,phase02_lora_r16_F1,1.0,[7]
+train_0063,8ae769ed_183_clip_008_0050_0060_Y,unknown,C,C,C,True,7,phase02_lora_r16_F1,1.0,[7]
+train_0070,add702c9_063_clip_003_0017_0024_Y,unknown,A,A,A,True,7,phase02_lora_r16_F1,1.0,[7]
+train_0071,add702c9_063_clip_003_0017_0024_Y,unknown,B,A,A,False,7,phase02_lora_r16_F1,1.0,[7]
+train_0078,4a8ff810_544_clip_001_0000_0005_Y,unknown,D,D,D,True,7,phase02_lora_r16_F1,1.0,[7]
+train_0079,4a8ff810_544_clip_001_0000_0005_Y,unknown,B,A,A,False,7,phase02_lora_r16_F1,1.0,[7]
+train_0088,83f02dc7_100_clip_001_0000_0006_N,unknown,A,A,A,True,3,phase02_lora_r16_F1,1.0,[3]
+train_0089,83f02dc7_100_clip_001_0000_0006_N,unknown,D,A,A,False,3,phase02_lora_r16_F1,1.0,[3]
+train_0006,464458b4_386_clip_006_0039_0048_Y,unknown,B,B,B,True,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0040,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0041,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0042,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,B,B,False,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0043,a5cb63a2_035_clip_001_0000_0007_Y,unknown,B,B,B,True,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0044,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,D,D,True,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0050,23245211_035_clip_008_0051_0060_Y,unknown,A,B,B,False,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0051,23245211_035_clip_008_0051_0060_Y,unknown,B,A,A,False,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0058,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,C,B,B,False,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0059,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,B,B,True,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0060,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,A,A,False,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0061,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B,True,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0062,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,A,A,False,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0063,8ae769ed_183_clip_008_0050_0060_Y,unknown,C,C,C,True,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0070,add702c9_063_clip_003_0017_0024_Y,unknown,A,A,A,True,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0071,add702c9_063_clip_003_0017_0024_Y,unknown,B,A,A,False,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0078,4a8ff810_544_clip_001_0000_0005_Y,unknown,D,D,D,True,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0079,4a8ff810_544_clip_001_0000_0005_Y,unknown,B,B,B,True,21,phase02_lora_r16_F3,3.0,"[7, 7, 7]"
+train_0088,83f02dc7_100_clip_001_0000_0006_N,unknown,A,A,A,True,9,phase02_lora_r16_F3,3.0,"[3, 3, 3]"
+train_0089,83f02dc7_100_clip_001_0000_0006_N,unknown,D,B,B,False,9,phase02_lora_r16_F3,3.0,"[3, 3, 3]"
+train_0006,464458b4_386_clip_006_0039_0048_Y,unknown,B,B,B,True,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0040,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0041,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0042,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,B,B,False,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0043,a5cb63a2_035_clip_001_0000_0007_Y,unknown,B,B,B,True,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0044,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,D,D,True,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0050,23245211_035_clip_008_0051_0060_Y,unknown,A,B,B,False,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0051,23245211_035_clip_008_0051_0060_Y,unknown,B,A,A,False,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0058,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,C,B,B,False,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0059,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,B,B,True,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0060,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,A,A,False,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0061,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B,True,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0062,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,A,A,False,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0063,8ae769ed_183_clip_008_0050_0060_Y,unknown,C,C,C,True,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0070,add702c9_063_clip_003_0017_0024_Y,unknown,A,A,A,True,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0071,add702c9_063_clip_003_0017_0024_Y,unknown,B,A,A,False,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0078,4a8ff810_544_clip_001_0000_0005_Y,unknown,D,D,D,True,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0079,4a8ff810_544_clip_001_0000_0005_Y,unknown,B,B,B,True,56,phase02_lora_r16_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0088,83f02dc7_100_clip_001_0000_0006_N,unknown,A,A,A,True,24,phase02_lora_r16_F8,8.0,"[3, 3, 3, 3, 3, 3, 3, 3]"
+train_0089,83f02dc7_100_clip_001_0000_0006_N,unknown,D,B,B,False,24,phase02_lora_r16_F8,8.0,"[3, 3, 3, 3, 3, 3, 3, 3]"
+train_0006,464458b4_386_clip_006_0039_0048_Y,unknown,B,B,B,True,7,phase02_zero_shot_F1,1.0,[7]
+train_0040,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,7,phase02_zero_shot_F1,1.0,[7]
+train_0041,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,7,phase02_zero_shot_F1,1.0,[7]
+train_0042,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,B,B,False,7,phase02_zero_shot_F1,1.0,[7]
+train_0043,a5cb63a2_035_clip_001_0000_0007_Y,unknown,B,B,B,True,7,phase02_zero_shot_F1,1.0,[7]
+train_0044,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,D,D,True,7,phase02_zero_shot_F1,1.0,[7]
+train_0050,23245211_035_clip_008_0051_0060_Y,unknown,A,B,B,False,7,phase02_zero_shot_F1,1.0,[7]
+train_0051,23245211_035_clip_008_0051_0060_Y,unknown,B,A,A. Có,False,7,phase02_zero_shot_F1,1.0,[7]
+train_0058,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,C,B,B,False,7,phase02_zero_shot_F1,1.0,[7]
+train_0059,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,B,B,True,7,phase02_zero_shot_F1,1.0,[7]
+train_0060,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,B,B,True,7,phase02_zero_shot_F1,1.0,[7]
+train_0061,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B,True,7,phase02_zero_shot_F1,1.0,[7]
+train_0062,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B. Sai,True,7,phase02_zero_shot_F1,1.0,[7]
+train_0063,8ae769ed_183_clip_008_0050_0060_Y,unknown,C,C,C,True,7,phase02_zero_shot_F1,1.0,[7]
+train_0070,add702c9_063_clip_003_0017_0024_Y,unknown,A,A,A. Cầu Khánh Hội,True,7,phase02_zero_shot_F1,1.0,[7]
+train_0071,add702c9_063_clip_003_0017_0024_Y,unknown,B,A,A. Đúng,False,7,phase02_zero_shot_F1,1.0,[7]
+train_0078,4a8ff810_544_clip_001_0000_0005_Y,unknown,D,D,D,True,7,phase02_zero_shot_F1,1.0,[7]
+train_0079,4a8ff810_544_clip_001_0000_0005_Y,unknown,B,B,B. Sai,True,7,phase02_zero_shot_F1,1.0,[7]
+train_0088,83f02dc7_100_clip_001_0000_0006_N,unknown,A,A,A,True,3,phase02_zero_shot_F1,1.0,[3]
+train_0089,83f02dc7_100_clip_001_0000_0006_N,unknown,D,B,B,False,3,phase02_zero_shot_F1,1.0,[3]
+train_0006,464458b4_386_clip_006_0039_0048_Y,unknown,B,B,B,True,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0040,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0041,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0042,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,B,B,False,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0043,a5cb63a2_035_clip_001_0000_0007_Y,unknown,B,B,B,True,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0044,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,D,D,True,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0050,23245211_035_clip_008_0051_0060_Y,unknown,A,B,B,False,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0051,23245211_035_clip_008_0051_0060_Y,unknown,B,A,A. Có,False,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0058,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,C,B,B,False,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0059,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,B,B,True,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0060,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,B,B. Sai,True,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0061,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B,True,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0062,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B. Sai,True,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0063,8ae769ed_183_clip_008_0050_0060_Y,unknown,C,C,C,True,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0070,add702c9_063_clip_003_0017_0024_Y,unknown,A,A,A. Cầu Khánh Hội,True,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0071,add702c9_063_clip_003_0017_0024_Y,unknown,B,A,A. Đúng,False,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0078,4a8ff810_544_clip_001_0000_0005_Y,unknown,D,D,D,True,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0079,4a8ff810_544_clip_001_0000_0005_Y,unknown,B,B,B. Sai,True,21,phase02_zero_shot_F3,3.0,"[7, 7, 7]"
+train_0088,83f02dc7_100_clip_001_0000_0006_N,unknown,A,B,B,False,9,phase02_zero_shot_F3,3.0,"[3, 3, 3]"
+train_0089,83f02dc7_100_clip_001_0000_0006_N,unknown,D,B,B,False,9,phase02_zero_shot_F3,3.0,"[3, 3, 3]"
+train_0006,464458b4_386_clip_006_0039_0048_Y,unknown,B,D,D,False,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0040,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B. Không,True,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0041,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0042,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,B,B,False,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0043,a5cb63a2_035_clip_001_0000_0007_Y,unknown,B,B,B,True,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0044,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,D,D,True,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0050,23245211_035_clip_008_0051_0060_Y,unknown,A,B,B,False,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0051,23245211_035_clip_008_0051_0060_Y,unknown,B,A,A. Có,False,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0058,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,C,B,B,False,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0059,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,D,D,False,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0060,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,B,B. Sai,True,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0061,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B,True,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0062,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B. Sai,True,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0063,8ae769ed_183_clip_008_0050_0060_Y,unknown,C,C,C,True,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0070,add702c9_063_clip_003_0017_0024_Y,unknown,A,A,A. Cầu Khánh Hội,True,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0071,add702c9_063_clip_003_0017_0024_Y,unknown,B,B,B. Sai,True,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0078,4a8ff810_544_clip_001_0000_0005_Y,unknown,D,D,D,True,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0079,4a8ff810_544_clip_001_0000_0005_Y,unknown,B,D,D. nan,False,56,phase02_zero_shot_F8,8.0,"[7, 7, 7, 7, 7, 7, 7, 7]"
+train_0088,83f02dc7_100_clip_001_0000_0006_N,unknown,A,A,A. Dành cho người đi bộ sang ngang,True,24,phase02_zero_shot_F8,8.0,"[3, 3, 3, 3, 3, 3, 3, 3]"
+train_0089,83f02dc7_100_clip_001_0000_0006_N,unknown,D,B,B,False,24,phase02_zero_shot_F8,8.0,"[3, 3, 3, 3, 3, 3, 3, 3]"
+train_0006,464458b4_386_clip_006_0039_0048_Y,unknown,B,B,B,True,7,phase03_r8_F1,,
+train_0040,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,7,phase03_r8_F1,,
+train_0041,81392443_006_clip_005_0028_0035_Y,unknown,B,B,B,True,7,phase03_r8_F1,,
+train_0042,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,B,B,False,7,phase03_r8_F1,,
+train_0043,a5cb63a2_035_clip_001_0000_0007_Y,unknown,B,B,B,True,7,phase03_r8_F1,,
+train_0044,a5cb63a2_035_clip_001_0000_0007_Y,unknown,D,D,D,True,7,phase03_r8_F1,,
+train_0050,23245211_035_clip_008_0051_0060_Y,unknown,A,B,B,False,7,phase03_r8_F1,,
+train_0051,23245211_035_clip_008_0051_0060_Y,unknown,B,A,A,False,7,phase03_r8_F1,,
+train_0058,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,C,B,B,False,7,phase03_r8_F1,,
+train_0059,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,B,B,True,7,phase03_r8_F1,,
+train_0060,5dc7b3e6_183_clip_007_0041_0050_Y,unknown,B,A,A,False,7,phase03_r8_F1,,
+train_0061,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B,True,7,phase03_r8_F1,,
+train_0062,8ae769ed_183_clip_008_0050_0060_Y,unknown,B,B,B,True,7,phase03_r8_F1,,
+train_0063,8ae769ed_183_clip_008_0050_0060_Y,unknown,C,C,C,True,7,phase03_r8_F1,,
+train_0070,add702c9_063_clip_003_0017_0024_Y,unknown,A,A,A,True,7,phase03_r8_F1,,
+train_0071,add702c9_063_clip_003_0017_0024_Y,unknown,B,A,A,False,7,phase03_r8_F1,,
+train_0078,4a8ff810_544_clip_001_0000_0005_Y,unknown,D,D,D,True,7,phase03_r8_F1,,
+train_0079,4a8ff810_544_clip_001_0000_0005_Y,unknown,B,B,B,True,7,phase03_r8_F1,,
+train_0088,83f02dc7_100_clip_001_0000_0006_N,unknown,A,A,A,True,3,phase03_r8_F1,,
+train_0089,83f02dc7_100_clip_001_0000_0006_N,unknown,D,C,C,False,3,phase03_r8_F1,,

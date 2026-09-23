@@ -1,0 +1,3 @@
+epoch,optimizer_step,unscaled_loss,gradient_norm,learning_rate,accumulated_sample_ids,accumulated_micro_batches,inner_dev_accuracy,inner_dev_macro_f1
+1,1,3.9765625,40.015045166015625,0.0001,"[""train_0020"", ""train_0019"", ""train_0003"", ""train_0011"", ""train_0001"", ""train_0025"", ""train_0008"", ""train_0018"", ""train_0024"", ""train_0007"", ""train_0012"", ""train_0013"", ""train_0004"", ""train_0002"", ""train_0014"", ""train_0017""]",16,0.45,0.4714285714285714
+1,2,0.4492197632789612,8.689480781555176,0.0,"[""train_0009"", ""train_0010"", ""train_0005"", ""train_0021""]",4,0.4,0.29642857142857143

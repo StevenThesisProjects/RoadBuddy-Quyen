@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "config": {
+    "schema_version": 1,
+    "seed": 42,
+    "run_scope": "smoke",
+    "attention_implementation": "eager",
+    "dtype": "bfloat16",
+    "total_tile_budget": 8,
+    "use_thumbnail": false,
+    "frame_policy": "equal_temporal_bin_midpoints",
+    "max_new_tokens": 16,
+    "do_sample": false,
+    "num_beams": 1,
+    "primary_metric": "accuracy",
+    "secondary_metric": "macro_f1",
+    "bootstrap_resamples": 10000,
+    "noninferiority_margin": 0.02,
+    "experiment_id": "Z-F1",
+    "frame_count": 1,
+    "limit": 20,
+    "model_id": "5CD-AI/Vintern-1B-v3_5",
+    "model_revision": "b98f263eab246eb5269ade64edbdca8a887dc44d"
+  },
+  "config_sha256": "4b322e6544e52441d0a5fa770f22eb34373ef119b2c3bd5a86283d7c3412e181",
+  "artifacts": [
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/zero_shot/Z-F1/smoke/predictions.csv",
+      "bytes": 2730,
+      "sha256": "4f4618ee885d5b47b9136042739b00ead88e35a9f63279724bee27a220233915"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/zero_shot/Z-F1/smoke/metrics.json",
+      "bytes": 927,
+      "sha256": "759aa0aad26dbaaf441ae55acec7fb57fc074341561a2ac2e38b12034fb3c817"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/zero_shot/Z-F1/smoke/runtime.json",
+      "bytes": 81,
+      "sha256": "352f56955f42ba43d2017515b7160b90d815032b9c844d8882d196c214089738"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+rank,epoch,step,loss,sample_ids
+8,1,1,1.9296875,['train_0015']
+8,1,2,0.6211035847663879,['train_0019']

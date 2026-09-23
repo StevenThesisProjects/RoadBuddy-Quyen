@@ -1,0 +1,26 @@
+{
+  "model_id": "5CD-AI/Vintern-1B-v3_5",
+  "revision": "b98f263eab246eb5269ade64edbdca8a887dc44d",
+  "seed": 42,
+  "frames": 1,
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "targets": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj"
+  ],
+  "label_masking": "tokenized_native_template_prefix",
+  "template": "Hermes-2",
+  "num_image_token": 256,
+  "image_flags": "one_per_visual_tile",
+  "flash_attention": false,
+  "debug_limit": 20,
+  "max_steps": 2,
+  "epochs": 1,
+  "batch_size": 1,
+  "gradient_accumulation": 16,
+  "learning_rate": 0.0001
+}

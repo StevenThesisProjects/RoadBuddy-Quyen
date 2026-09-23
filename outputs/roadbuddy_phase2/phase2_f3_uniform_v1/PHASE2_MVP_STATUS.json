@@ -1,0 +1,54 @@
+{
+  "run_id": "phase2_f3_uniform_v1",
+  "status": "PASSED",
+  "checks": {
+    "phase1_split_loaded": true,
+    "model_loaded": true,
+    "multiframe_smoke_passed": true,
+    "dataset_probe_passed": true,
+    "collator_probe_passed": true,
+    "lora_ready": true,
+    "training_completed": true,
+    "lora_updated": true,
+    "validation_completed": true
+  },
+  "failed_checks": [],
+  "config": {
+    "run_id": "phase2_f3_uniform_v1",
+    "seed": 42,
+    "debug_mode": true,
+    "debug_train_samples": 256,
+    "debug_val_samples": 64,
+    "num_frames": 3,
+    "sampling_strategy": "uniform",
+    "max_tiles_per_frame": 2,
+    "max_total_tiles": 6,
+    "input_size": 448,
+    "max_length": 2048,
+    "max_new_tokens": 8,
+    "lora_rank": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "learning_rate": 0.0001,
+    "epochs": 1
+  },
+  "metrics": {
+    "run_id": "phase2_f3_uniform_v1",
+    "debug_mode": true,
+    "sample_count": 64,
+    "normalized_choice_accuracy": 0.125,
+    "raw_exact_match_accuracy": 0.046875,
+    "empty_output_rate": 0.0,
+    "parse_failure_rate": 0.421875,
+    "train_runtime_seconds": 432.3828775882721,
+    "validation_runtime_seconds": 85.39453983306885,
+    "peak_vram_gb": 11.822735786437988,
+    "changed_lora_tensors": 192
+  },
+  "artifacts": {
+    "config": "outputs/roadbuddy_phase2/phase2_f3_uniform_v1/configs/phase2_f3_uniform_v1.json",
+    "checkpoint": "outputs/roadbuddy_phase2/phase2_f3_uniform_v1/checkpoints/final_lora_adapter",
+    "metrics": "outputs/roadbuddy_phase2/phase2_f3_uniform_v1/metrics/phase2_f3_uniform_v1.json",
+    "predictions": "outputs/roadbuddy_phase2/phase2_f3_uniform_v1/predictions/phase2_f3_uniform_v1_validation.csv"
+  }
+}

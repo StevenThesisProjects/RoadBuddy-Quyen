@@ -1,0 +1,62 @@
+{
+  "phase": "Phase 1 — Foundation Fix",
+  "status": "PASSED",
+  "checks": {
+    "environment_checked": true,
+    "img_context_valid": true,
+    "helper_audit_passed": true,
+    "train_paths_valid": true,
+    "test_paths_valid": true,
+    "original_smoke_test_passed": true,
+    "label_mask_probe_passed": true,
+    "lora_wrapper_valid": true,
+    "lora_dtype_valid": true,
+    "training_completed": true,
+    "lora_weights_changed": true,
+    "validation_completed": true,
+    "submission_completed": true,
+    "package_versions_saved": true,
+    "split_ids_saved": true,
+    "submission_checksum_saved": true,
+    "error_analysis_created": true,
+    "phase1_markdown_report_created": true
+  },
+  "failed_checks": [],
+  "p1_documentation_status": "PASSED",
+  "p1_documentation_failures": [],
+  "validation_metrics": {
+    "sample_count": 319,
+    "raw_exact_match_accuracy": 0.09404388714733543,
+    "normalized_choice_accuracy": 0.3385579937304075,
+    "empty_output_count": 0,
+    "empty_output_rate": 0.0,
+    "parse_failure_count": 0,
+    "parse_failure_rate": 0.0,
+    "project_metric": {
+      "accuracy": 0.09404388714733543,
+      "empty_output_rate": 0.0,
+      "empty_output_count": 0,
+      "sample_count": 319
+    }
+  },
+  "submission_path": "outputs/roadbuddy_phase1_final/artifacts/submission_phase1.csv",
+  "submission_rows": 405,
+  "artifacts": {
+    "split_manifest": "outputs/roadbuddy_phase1_final/artifacts/split_manifest.json",
+    "mask_probe": "outputs/roadbuddy_phase1_final/artifacts/label_mask_probe.csv",
+    "lora_weight_deltas": "outputs/roadbuddy_phase1_final/artifacts/lora_weight_deltas.csv",
+    "validation_predictions": "outputs/roadbuddy_phase1_final/artifacts/validation_predictions_phase1.csv",
+    "validation_metrics": "outputs/roadbuddy_phase1_final/artifacts/validation_metrics_phase1.json",
+    "public_test_predictions": "outputs/roadbuddy_phase1_final/artifacts/public_test_predictions_phase1.csv",
+    "submission": "outputs/roadbuddy_phase1_final/artifacts/submission_phase1.csv",
+    "experiment_config": "outputs/roadbuddy_phase1_final/artifacts/experiment_config.json",
+    "environment_summary": "outputs/roadbuddy_phase1_final/artifacts/environment_summary.json",
+    "requirements": "outputs/roadbuddy_phase1_final/artifacts/requirements_phase1.txt",
+    "train_video_ids": "outputs/roadbuddy_phase1_final/artifacts/train_video_ids.json",
+    "validation_video_ids": "outputs/roadbuddy_phase1_final/artifacts/validation_video_ids.json",
+    "submission_checksum": "outputs/roadbuddy_phase1_final/artifacts/submission_phase1.sha256",
+    "error_analysis_20": "outputs/roadbuddy_phase1_final/artifacts/phase1_error_analysis_20.csv",
+    "error_summary": "outputs/roadbuddy_phase1_final/artifacts/phase1_error_summary.csv",
+    "markdown_report": "outputs/roadbuddy_phase1_final/artifacts/PHASE1_REPORT.md"
+  }
+}

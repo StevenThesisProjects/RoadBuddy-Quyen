@@ -1,0 +1,11 @@
+{
+  "phase": "06A.06",
+  "status": "complete",
+  "ranks": [
+    8,
+    16,
+    32,
+    64
+  ],
+  "rows_per_experiment": 298
+}

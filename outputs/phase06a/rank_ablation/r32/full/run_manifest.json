@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "config": {
+    "schema_version": 1,
+    "seed": 42,
+    "run_scope": "full",
+    "attention_implementation": "eager",
+    "dtype": "bfloat16",
+    "total_tile_budget": 8,
+    "use_thumbnail": false,
+    "frame_policy": "equal_temporal_bin_midpoints",
+    "max_new_tokens": 16,
+    "do_sample": false,
+    "num_beams": 1,
+    "primary_metric": "accuracy",
+    "secondary_metric": "macro_f1",
+    "bootstrap_resamples": 10000,
+    "noninferiority_margin": 0.02,
+    "rank": 32,
+    "alpha": 64,
+    "alpha_over_rank": 2.0,
+    "locked_optimizer_step": 64,
+    "adapter_path": "/workspace/RoadBuddy/outputs/phase06a/rank_ablation/r32/full/final_adapter",
+    "reused_phase06a_04": false
+  },
+  "config_sha256": "e1a515e40c384e5764e5e67e3620e5119056701cda2a885921340778f18d9dea",
+  "artifacts": [
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/rank_ablation/r32/full/predictions.csv",
+      "bytes": 39313,
+      "sha256": "d4b3862681cd867be9aac4c5f9cf268cfae1bdb38a20b6543ace0fa97c7429f6"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/rank_ablation/r32/full/metrics.json",
+      "bytes": 1063,
+      "sha256": "7432b985280da4fc7adacef3ab1d82260fb2dc19fd5c816b717f6bfdd150366d"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/rank_ablation/r32/full/final_adapter/adapter_config.json",
+      "bytes": 1245,
+      "sha256": "92f1a0a14bec4fec2a41bd9e72f9d8b05bbf3edeb51460e55e6ef855997ffc92"
+    },
+    {
+      "path": "/workspace/RoadBuddy/outputs/phase06a/rank_ablation/r32/full/final_adapter/adapter_model.safetensors",
+      "bytes": 17329824,
+      "sha256": "42f69ca6dc53c1083a66906fa6832d4b229836218d0ac9bac03558cd0fbf8a42"
+    }
+  ]
+}

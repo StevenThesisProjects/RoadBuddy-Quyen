@@ -1,0 +1,79 @@
+{
+  "optimizer_steps": 2,
+  "planned_optimizer_steps": 2,
+  "scheduler_total_steps": 2,
+  "scheduler_total_steps_source": "execution_horizon",
+  "best_step": 1,
+  "best_metrics": {
+    "rows": 20,
+    "accuracy": 0.45,
+    "macro_f1": 0.47023809523809523,
+    "parse_rate": 1.0,
+    "per_class": {
+      "A": {
+        "precision": 0.6,
+        "recall": 0.3333333333333333,
+        "f1": 0.42857142857142855,
+        "support": 9
+      },
+      "B": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "f1": 0.5,
+        "support": 4
+      },
+      "C": {
+        "precision": 0.5,
+        "recall": 0.2,
+        "f1": 0.2857142857142857,
+        "support": 5
+      },
+      "D": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "support": 2
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "values": [
+        [
+          3,
+          6,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  "early_stopped": false,
+  "changed_lora_tensors": 192,
+  "total_lora_tensors": 192,
+  "trainable_parameters": 1081344,
+  "peak_vram_gib": 11.80153512954712,
+  "elapsed_seconds": 57.57115453016013
+}

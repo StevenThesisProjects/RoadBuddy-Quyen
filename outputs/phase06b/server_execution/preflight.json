@@ -1,0 +1,191 @@
+{
+  "phase": "06B",
+  "generated_at_utc": "2026-09-12T14:49:33.188446+00:00",
+  "status": "pass_with_expected_human_data_gates_and_git_metadata_limitation",
+  "required_plan_present": true,
+  "working_tree_audit": {
+    "git_available": false,
+    "returncode": 128,
+    "detail": "fatal: not a git repository (or any of the parent directories): .git",
+    "destructive_commands_used": false
+  },
+  "environment": {
+    "python": "3.10.12",
+    "torch": "2.13.0+cu126",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "bf16_supported": true,
+    "model_cache_revision_present": true,
+    "disk_free_gib": 190.52
+  },
+  "baseline": {
+    "gate": "pass",
+    "status": "complete",
+    "winner": "L32-F1",
+    "validation_rows": 298,
+    "validation_groups": 110,
+    "validation_ids_sha256": "dbfa2d337f56bd681df70206fa8cee83d743c6743a3493619083d03b804145c5",
+    "winner_predictions_sha256": "d4b3862681cd867be9aac4c5f9cf268cfae1bdb38a20b6543ace0fa97c7429f6",
+    "model_id": "5CD-AI/Vintern-1B-v3_5",
+    "model_revision": "b98f263eab246eb5269ade64edbdca8a887dc44d"
+  },
+  "notebooks": [
+    {
+      "path": "notebooks/Phase06A_00_Frozen_Data_Audit_Protocol_Lock.ipynb",
+      "code_cells": 5,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06A_01_Question_Taxonomy_Freeze.ipynb",
+      "code_cells": 3,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06A_02_Inner_Dev_Checkpoint_Protocol.ipynb",
+      "code_cells": 4,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06A_03_ZeroShot_Full_Validation.ipynb",
+      "code_cells": 5,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06A_04_LoRA_R16_Full_Training.ipynb",
+      "code_cells": 6,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06A_05_LoRA_R16_Full_Evaluation.ipynb",
+      "code_cells": 5,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06A_06_LoRA_Rank_Ablation.ipynb",
+      "code_cells": 6,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06A_07_Statistical_Analysis_Winner_Lock.ipynb",
+      "code_cells": 6,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06B_00_Taxonomy_Slice_Analysis.ipynb",
+      "code_cells": 3,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06B_01_Novelty_Track_Decision_Lock.ipynb",
+      "code_cells": 3,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06B_02_Knowledge_Augmented_Preflight.ipynb",
+      "code_cells": 3,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06B_03A_Train_Temporal_Annotation_Audit.ipynb",
+      "code_cells": 2,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06B_03B_Temporal_Feature_Bank_Build.ipynb",
+      "code_cells": 2,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06B_03C_QTG_TATG_Selector_Training.ipynb",
+      "code_cells": 2,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06B_03D_Grounding_Diagnostic_Evaluation.ipynb",
+      "code_cells": 2,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06B_03E_Full_Temporal_VQA_Evaluation.ipynb",
+      "code_cells": 2,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06B_03_Temporal_Grounding_Preflight.ipynb",
+      "code_cells": 2,
+      "json": "pass",
+      "ast": "pass"
+    },
+    {
+      "path": "notebooks/Phase06B_04_Novelty_Statistical_Analysis_Winner_Lock.ipynb",
+      "code_cells": 5,
+      "json": "pass",
+      "ast": "pass"
+    }
+  ],
+  "python_compile": "pass",
+  "unit_tests": {
+    "status": "pass",
+    "returncode": 0,
+    "count": 19,
+    "log": "outputs/phase06b/server_execution/logs/final_unit_tests.log"
+  },
+  "boundary_scans": {
+    "submission_creator_hits": [],
+    "validation_checkpoint_selection_hits": [],
+    "public_test_data_accessed": false,
+    "trailing_whitespace_hits": [],
+    "oracle_in_winner_registry": false,
+    "full_status_requires_298_unique_ids": "enforced_by validate_full_temporal_predictions",
+    "tile_allocations": {
+      "1": [
+        8
+      ],
+      "3": [
+        3,
+        2,
+        3
+      ],
+      "8": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "forbidden_reference_note": "sample_submission appears only in an assertion deny-list; no read/write workflow exists"
+  },
+  "expected_gates": {
+    "taxonomy": "awaiting_annotation",
+    "temporal_support": "awaiting_temporal_annotation",
+    "human_novelty_decision": "not_reached",
+    "encoder_manifest": "awaiting_encoder_manifest"
+  },
+  "verification": {
+    "git_diff_check": "unavailable: repository package has no .git metadata",
+    "manual_trailing_whitespace_scan": "pass",
+    "notebook_json_and_code_ast": "18/18 pass",
+    "python_compile": "pass",
+    "unit_tests": "19/19 pass"
+  }
+}

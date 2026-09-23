@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "validation_fraction": 0.2,
+  "train_video_count": 439,
+  "validation_video_count": 110,
+  "train_sample_count": 1171,
+  "validation_sample_count": 319,
+  "video_id_intersection_count": 0
+}
